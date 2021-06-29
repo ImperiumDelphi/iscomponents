@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/01/16 15:19:50.000.131,=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Unit9.pas</Transaction>
+    <Transaction>2020/01/16 15:26:13.000.698,=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Unit9.pas</Transaction>
+    <Transaction>2020/01/16 16:46:23.000.850,=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Unit9.pas</Transaction>
+    <Transaction>2020/01/16 16:56:22.000.006,=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Unit9.pas</Transaction>
+    <Transaction>2020/01/17 13:44:39.000.968,=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Unit9.pas</Transaction>
+    <Transaction>2020/01/17 16:43:28.000.259,C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Curso\Pokemon\uPokedex.pas=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Unit9.pas</Transaction>
+    <Transaction>2020/01/17 16:43:28.000.259,C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Curso\Pokemon\uPokedex.fmx=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Unit9.fmx</Transaction>
+    <Transaction>2020/01/17 16:43:37.000.118,C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Curso\Pokemon\Pokedex.dproj=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Project3.dproj</Transaction>
+    <Transaction>2020/03/10 15:35:49.000.306,=D:\Aulas\Curso\Fontes\Pokemon\AndroidManifest.template.xml</Transaction>
+    <Transaction>2021/02/24 17:19:29.000.490,D:\Aulas\Curso\Fontes\Pokemon\uPokedex.pas=D:\Carnival\FMX.ISComponents\demos\Demo_Pokedex\uPokedex.pas</Transaction>
+    <Transaction>2021/02/24 17:19:29.000.490,D:\Aulas\Curso\Fontes\Pokemon\uPokedex.fmx=D:\Carnival\FMX.ISComponents\demos\Demo_Pokedex\uPokedex.fmx</Transaction>
+    <Transaction>2021/02/24 17:19:48.000.329,D:\Aulas\Curso\Fontes\Pokemon\Pokedex.dproj=D:\Carnival\FMX.ISComponents\demos\Demo_Pokedex\Pokedex.dproj</Transaction>
+    <Transaction>2021/02/25 19:20:20.000.365,D:\Aulas\Curso\Fontes\Pokemon\AndroidManifest.template.xml=</Transaction>
+    <Transaction>2021/02/25 19:21:15.000.693,D:\Carnival\FMX.ISComponents\demos\Demo_Pokedex\uPokedex.pas=</Transaction>
+    <Transaction>2021/02/25 19:21:34.000.744,=D:\Carnival\FMX.ISComponents\demos\Demo_Pokedex\uPokedex.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5" Android="" Android64=""/>
+		<PHackIntosh iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+</BorlandProject>
