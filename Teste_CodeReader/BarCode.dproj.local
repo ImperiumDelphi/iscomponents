@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/12/10 10:32:19.000.471,=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/12/10 10:39:58.000.469,=D:\Carnival\FMX.ISComponents\lib\dw-camera.jar</Transaction>
+    <Transaction>2020/12/10 14:49:08.000.575,D:\Carnival\BarCodeKastri\ISComponent\Unit1.fmx=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2020/12/10 14:49:08.000.575,D:\Carnival\BarCodeKastri\ISComponent\Unit1.pas=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/12/10 14:49:10.000.899,D:\Carnival\BarCodeKastri\ISComponent\Project1.dproj=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2020/12/11 21:04:35.000.709,D:\Carnival\FMX.ISComponents\demos\TISCodeReader\Unit1.fmx=D:\Carnival\FMX.ISComponents\demos\TISCodeReader\uBarCode.fmx</Transaction>
+    <Transaction>2020/12/11 21:04:35.000.709,D:\Carnival\FMX.ISComponents\demos\TISCodeReader\Unit1.pas=D:\Carnival\FMX.ISComponents\demos\TISCodeReader\uBarCode.pas</Transaction>
+    <Transaction>2020/12/11 21:04:56.000.699,D:\Carnival\FMX.ISComponents\demos\TISCodeReader\Project1.dproj=D:\Carnival\FMX.ISComponents\demos\TISCodeReader\BarCode.dproj</Transaction>
+    <Transaction>2020/12/11 21:26:23.000.423,=D:\Carnival\FMX.ISComponents\lib\dw-camera.jar</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile Android="7fc8f2f8" Android64="7fc8f2f8"/>
+		<PHackIntosh iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+</BorlandProject>

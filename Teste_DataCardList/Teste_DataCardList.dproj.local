@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/11/10 15:48:23.000.846,=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/11/10 16:23:15.000.803,C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Teste_DataCardList\Unit1.pas=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/11/10 16:23:15.000.803,C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Teste_DataCardList\Unit1.fmx=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2020/11/10 16:23:23.000.511,C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Teste_DataCardList\Teste_DataCardList.dproj=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2020/12/22 21:10:16.000.325,=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Teste_DataCardList\Unit2.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile Android64="7fc8f2f8" Android="7fc8f2f8"/>
+		<PHackIntosh iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+</BorlandProject>

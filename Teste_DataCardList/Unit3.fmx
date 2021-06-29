@@ -1,0 +1,51 @@
+object ISFrame3: TISFrame3
+  Color = claGray
+  CornerWidth = 24.000000000000000000
+  EdgeSize = 2.000000000000000000
+  EdgeColor = claBlack
+  Shadow.Enabled = False
+  Shadow.Color = claLightgray
+  Shadow.Radius = 12.000000000000000000
+  Shadow.Distance = 3.000000000000000000
+  Shadow.Opacity = 0.600000023841857900
+  Appearance.Color = claGray
+  Appearance.Corners = [TopLeft, TopRight, BottomLeft, BottomRight]
+  Appearance.CornerType = Round
+  Appearance.CornerWidth = 24.000000000000000000
+  Appearance.EdgeSize = 2.000000000000000000
+  Appearance.EdgeColor = claBlack
+  Appearance.EdgeSides = [Top, Left, Bottom, Right]
+  Appearance.Origin = coNone
+  Appearance.OriginAlign = Leading
+  Appearance.OriginRound = False
+  Appearance.Fill.Color = claGray
+  Appearance.Stroke.Thickness = 2.000000000000000000
+  Fill.Color = claGray
+  Stroke.Thickness = 2.000000000000000000
+  Size.Width = 320.000000000000000000
+  Size.Height = 240.000000000000000000
+  Size.PlatformDefault = False
+  object ISControl1: TISControl
+    Color = claWhite
+    CornerWidth = 12.000000000000000000
+    EdgeSize = 6.000000000000000000
+    EdgeColor = claBlack
+    Shadow.Enabled = False
+    Shadow.Color = claLightgray
+    Shadow.Radius = 12.000000000000000000
+    Shadow.Distance = 3.000000000000000000
+    Shadow.Opacity = 0.600000023841857900
+    CursorEnter = crDefault
+    Fill.Color = claWhite
+    Stroke.Kind = None
+    Stroke.Thickness = 6.000000000000000000
+    CanFocus = True
+    Size.Width = 145.000000000000000000
+    Size.Height = 94.000000000000000000
+    Size.PlatformDefault = False
+    Position.X = 78.000000000000000000
+    Position.Y = 75.000000000000000000
+    LongTapTime = 1.000000000000000000
+    ClickTime = 0.400000005960464500
+  end
+end

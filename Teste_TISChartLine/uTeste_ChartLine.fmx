@@ -1,0 +1,63 @@
+object Form5: TForm5
+  Left = 0
+  Top = 0
+  Caption = 'Form5'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Chart: TISLineChart
+    ClipChildren = True
+    Corners = [TopLeft, TopRight, BottomLeft, BottomRight]
+    CornerType = Round
+    Sides = [Top, Left, Bottom, Right]
+    XRadius = 12.000000000000000000
+    YRadius = 12.000000000000000000
+    Origin = coNone
+    OriginAlign = Trailing
+    OriginRound = True
+    IsChatControl = False
+    CursorEnter = crDefault
+    YType = StartAtZero
+    Columns = 0
+    ShowChartEdge = False
+    ShowLineValues = False
+    ChartEdgeColor = claGray
+    ValuesColot = claGray
+    Color = claWhite
+    EdgeSize = 2.000000000000000000
+    EdgeColor = claBlack
+    EdgeSides = [Top, Left, Bottom, Right]
+    CornerWidth = 12.000000000000000000
+    ShowShadow = True
+    ShadowColor = claGray
+    ShadowAngle = 45.000000000000000000
+    ShadowDistance = 3.000000000000000000
+    ShadowSoftness = 0.300000011920929000
+    Size.Width = 624.000000000000000000
+    Size.Height = 145.000000000000000000
+    Size.PlatformDefault = False
+    Position.X = 8.000000000000000000
+    Position.Y = 8.000000000000000000
+    Align = Top
+    Margins.Left = 8.000000000000000000
+    Margins.Top = 8.000000000000000000
+    Margins.Right = 8.000000000000000000
+  end
+  object Button1: TButton
+    Align = Top
+    Margins.Left = 8.000000000000000000
+    Margins.Top = 8.000000000000000000
+    Margins.Right = 8.000000000000000000
+    Position.X = 8.000000000000000000
+    Position.Y = 161.000000000000000000
+    Size.Width = 624.000000000000000000
+    Size.Height = 34.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Text = 'Button1'
+    OnClick = Button1Click
+  end
+end

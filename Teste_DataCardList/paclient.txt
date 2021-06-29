@@ -1,0 +1,347 @@
+-----------------------------------------------------------------
+17/06/2021 17:44:36
+  
+c:\program files (x86)\embarcadero\studio\20.0\bin\paclient_.exe
+-u8 --Clean=.\Android\Release\Teste_DataCardList_ImageFieldEX,C:\Delphi\FMX.ISComponents\demos\Teste_DataCardList\Teste_DataCardList_ImageFieldEX._@emb_.tmp 
+Platform Assistant Client  Version 11.2.13.8
+Copyright (c) 2010-2019 Embarcadero Technologies, Inc.
+
+Deleting file(s)...
+Total file(s) deleted: 6 file(s)  3 dir(s)
+
+-----------------------------------------------------------------
+17/06/2021 17:44:36
+  
+c:\program files (x86)\embarcadero\studio\20.0\bin\paclient_.exe
+-u8 --put=C:\Users\Public\Documents\Embarcadero\Studio\20.0\CatalogRepository\AndroidNDK-17b_20.0.36039.7899\prebuilt\android-arm\gdbserver\gdbserver,.\Android\Release\Teste_DataCardList_ImageFieldEX\library\lib\armeabi-v7a\,1,gdbserver 
+Platform Assistant Client  Version 11.2.13.8
+Copyright (c) 2010-2019 Embarcadero Technologies, Inc.
+
+Copying file(s)...
+Total file(s) copied: 0 file(s)  0 bytes
+
+-----------------------------------------------------------------
+17/06/2021 17:44:36
+  
+c:\program files (x86)\embarcadero\studio\20.0\bin\paclient_.exe
+-u8 --put=Android\Release\styles-v21.xml,.\Android\Release\Teste_DataCardList_ImageFieldEX\res\values-v21\,1,styles.xml 
+Platform Assistant Client  Version 11.2.13.8
+Copyright (c) 2010-2019 Embarcadero Technologies, Inc.
+
+Copying file(s)...
+Total file(s) copied: 1 file(s)  324 bytes
+
+-----------------------------------------------------------------
+17/06/2021 17:44:36
+  
+c:\program files (x86)\embarcadero\studio\20.0\bin\paclient_.exe
+-u8 "--put=c:\program files (x86)\embarcadero\studio\20.0\bin\Artwork\Android\FM_NotificationIcon_96x96.png,.\Android\Release\Teste_DataCardList_ImageFieldEX\res\drawable-xxxhdpi\,1,ic_notification.png" 
+Platform Assistant Client  Version 11.2.13.8
+Copyright (c) 2010-2019 Embarcadero Technologies, Inc.
+
+Copying file(s)...
+Total file(s) copied: 0 file(s)  0 bytes
+
+-----------------------------------------------------------------
+17/06/2021 17:44:37
+  
+c:\program files (x86)\embarcadero\studio\20.0\bin\paclient_.exe
+-u8 "--put=c:\program files (x86)\embarcadero\studio\20.0\bin\Artwork\Android\FM_SplashImage_470x320.png,.\Android\Release\Teste_DataCardList_ImageFieldEX\res\drawable-normal\,1,splash_image.png" 
+Platform Assistant Client  Version 11.2.13.8
+Copyright (c) 2010-2019 Embarcadero Technologies, Inc.
+
+Copying file(s)...
+Total file(s) copied: 0 file(s)  0 bytes
+
+-----------------------------------------------------------------
+17/06/2021 17:44:37
+  
+c:\program files (x86)\embarcadero\studio\20.0\bin\paclient_.exe
+-u8 "--put=c:\program files (x86)\embarcadero\studio\20.0\bin\Artwork\Android\FM_LauncherIcon_48x48.png,.\Android\Release\Teste_DataCardList_ImageFieldEX\res\drawable-mdpi\,1,ic_launcher.png" 
+Platform Assistant Client  Version 11.2.13.8
+Copyright (c) 2010-2019 Embarcadero Technologies, Inc.
+
+Copying file(s)...
+Total file(s) copied: 0 file(s)  0 bytes
+
+-----------------------------------------------------------------
+17/06/2021 17:44:37
+  
+c:\program files (x86)\embarcadero\studio\20.0\bin\paclient_.exe
+-u8 --put=Android\Release\styles.xml,.\Android\Release\Teste_DataCardList_ImageFieldEX\res\values\,1,styles.xml 
+Platform Assistant Client  Version 11.2.13.8
+Copyright (c) 2010-2019 Embarcadero Technologies, Inc.
+
+Copying file(s)...
+Total file(s) copied: 1 file(s)  301 bytes
+
+-----------------------------------------------------------------
+17/06/2021 17:44:37
+  
+c:\program files (x86)\embarcadero\studio\20.0\bin\paclient_.exe
+-u8 "--put=c:\program files (x86)\embarcadero\studio\20.0\bin\Artwork\Android\FM_LauncherIcon_36x36.png,.\Android\Release\Teste_DataCardList_ImageFieldEX\res\drawable-ldpi\,1,ic_launcher.png" 
+Platform Assistant Client  Version 11.2.13.8
+Copyright (c) 2010-2019 Embarcadero Technologies, Inc.
+
+Copying file(s)...
+Total file(s) copied: 0 file(s)  0 bytes
+
+-----------------------------------------------------------------
+17/06/2021 17:44:37
+  
+c:\program files (x86)\embarcadero\studio\20.0\bin\paclient_.exe
+-u8 "--put=c:\program files (x86)\embarcadero\studio\20.0\bin\Artwork\Android\FM_SplashImage_426x320.png,.\Android\Release\Teste_DataCardList_ImageFieldEX\res\drawable-small\,1,splash_image.png" 
+Platform Assistant Client  Version 11.2.13.8
+Copyright (c) 2010-2019 Embarcadero Technologies, Inc.
+
+Copying file(s)...
+Total file(s) copied: 0 file(s)  0 bytes
+
+-----------------------------------------------------------------
+17/06/2021 17:44:38
+  
+c:\program files (x86)\embarcadero\studio\20.0\bin\paclient_.exe
+-u8 --put=AndroidManifest.template.xml,.\Android\Release\Teste_DataCardList_ImageFieldEX\assets\internal\,0,AndroidManifest.template.xml 
+Platform Assistant Client  Version 11.2.13.8
+Copyright (c) 2010-2019 Embarcadero Technologies, Inc.
+
+Copying file(s)...
+Total file(s) copied: 0 file(s)  0 bytes
+
+-----------------------------------------------------------------
+17/06/2021 17:44:38
+  
+c:\program files (x86)\embarcadero\studio\20.0\bin\paclient_.exe
+-u8 "--put=c:\program files (x86)\embarcadero\studio\20.0\lib\android\debug\armeabi\libnative-activity.so,.\Android\Release\Teste_DataCardList_ImageFieldEX\library\lib\armeabi\,1,libTeste_DataCardList_ImageFieldEX.so" 
+Platform Assistant Client  Version 11.2.13.8
+Copyright (c) 2010-2019 Embarcadero Technologies, Inc.
+
+Copying file(s)...
+Total file(s) copied: 0 file(s)  0 bytes
+
+-----------------------------------------------------------------
+17/06/2021 17:44:38
+  
+c:\program files (x86)\embarcadero\studio\20.0\bin\paclient_.exe
+-u8 "--put=c:\program files (x86)\embarcadero\studio\20.0\bin\Artwork\Android\FM_NotificationIcon_36x36.png,.\Android\Release\Teste_DataCardList_ImageFieldEX\res\drawable-hdpi\,1,ic_notification.png" 
+Platform Assistant Client  Version 11.2.13.8
+Copyright (c) 2010-2019 Embarcadero Technologies, Inc.
+
+Copying file(s)...
+Total file(s) copied: 0 file(s)  0 bytes
+
+-----------------------------------------------------------------
+17/06/2021 17:44:38
+  
+c:\program files (x86)\embarcadero\studio\20.0\bin\paclient_.exe
+-u8 "--put=c:\program files (x86)\embarcadero\studio\20.0\bin\Artwork\Android\FM_LauncherIcon_144x144.png,.\Android\Release\Teste_DataCardList_ImageFieldEX\res\drawable-xxhdpi\,1,ic_launcher.png" 
+Platform Assistant Client  Version 11.2.13.8
+Copyright (c) 2010-2019 Embarcadero Technologies, Inc.
+
+Copying file(s)...
+Total file(s) copied: 0 file(s)  0 bytes
+
+-----------------------------------------------------------------
+17/06/2021 17:44:39
+  
+c:\program files (x86)\embarcadero\studio\20.0\bin\paclient_.exe
+-u8 --put=Android\Release\strings.xml,.\Android\Release\Teste_DataCardList_ImageFieldEX\res\values\,1,strings.xml 
+Platform Assistant Client  Version 11.2.13.8
+Copyright (c) 2010-2019 Embarcadero Technologies, Inc.
+
+Copying file(s)...
+Total file(s) copied: 1 file(s)  123 bytes
+
+-----------------------------------------------------------------
+17/06/2021 17:44:39
+  
+c:\program files (x86)\embarcadero\studio\20.0\bin\paclient_.exe
+-u8 "--put=c:\program files (x86)\embarcadero\studio\20.0\bin\Artwork\Android\FM_SplashImage_640x480.png,.\Android\Release\Teste_DataCardList_ImageFieldEX\res\drawable-large\,1,splash_image.png" 
+Platform Assistant Client  Version 11.2.13.8
+Copyright (c) 2010-2019 Embarcadero Technologies, Inc.
+
+Copying file(s)...
+Total file(s) copied: 0 file(s)  0 bytes
+
+-----------------------------------------------------------------
+17/06/2021 17:44:39
+  
+c:\program files (x86)\embarcadero\studio\20.0\bin\paclient_.exe
+-u8 --put=Android\Release\colors.xml,.\Android\Release\Teste_DataCardList_ImageFieldEX\res\values\,1,colors.xml 
+Platform Assistant Client  Version 11.2.13.8
+Copyright (c) 2010-2019 Embarcadero Technologies, Inc.
+
+Copying file(s)...
+Total file(s) copied: 1 file(s)  183 bytes
+
+-----------------------------------------------------------------
+17/06/2021 17:44:39
+  
+c:\program files (x86)\embarcadero\studio\20.0\bin\paclient_.exe
+-u8 --put=Android\Release\AndroidManifest.xml,.\Android\Release\Teste_DataCardList_ImageFieldEX\,1,AndroidManifest.xml 
+Platform Assistant Client  Version 11.2.13.8
+Copyright (c) 2010-2019 Embarcadero Technologies, Inc.
+
+Copying file(s)...
+Total file(s) copied: 1 file(s)  2.507 bytes
+
+-----------------------------------------------------------------
+17/06/2021 17:44:39
+  
+c:\program files (x86)\embarcadero\studio\20.0\bin\paclient_.exe
+-u8 --put=Android\Release\splash_image_def.xml,.\Android\Release\Teste_DataCardList_ImageFieldEX\res\drawable\,1,splash_image_def.xml 
+Platform Assistant Client  Version 11.2.13.8
+Copyright (c) 2010-2019 Embarcadero Technologies, Inc.
+
+Copying file(s)...
+Total file(s) copied: 1 file(s)  383 bytes
+
+-----------------------------------------------------------------
+17/06/2021 17:44:40
+  
+c:\program files (x86)\embarcadero\studio\20.0\bin\paclient_.exe
+-u8 "--put=c:\program files (x86)\embarcadero\studio\20.0\bin\Artwork\Android\FM_NotificationIcon_24x24.png,.\Android\Release\Teste_DataCardList_ImageFieldEX\res\drawable-mdpi\,1,ic_notification.png" 
+Platform Assistant Client  Version 11.2.13.8
+Copyright (c) 2010-2019 Embarcadero Technologies, Inc.
+
+Copying file(s)...
+Total file(s) copied: 0 file(s)  0 bytes
+
+-----------------------------------------------------------------
+17/06/2021 17:44:40
+  
+c:\program files (x86)\embarcadero\studio\20.0\bin\paclient_.exe
+-u8 --put=Android\Release\libTeste_DataCardList_ImageFieldEX.so,.\Android\Release\Teste_DataCardList_ImageFieldEX\library\lib\armeabi-v7a\,1,libTeste_DataCardList_ImageFieldEX.so 
+Platform Assistant Client  Version 11.2.13.8
+Copyright (c) 2010-2019 Embarcadero Technologies, Inc.
+
+Copying file(s)...
+Total file(s) copied: 1 file(s)  33.111.448 bytes
+
+-----------------------------------------------------------------
+17/06/2021 17:44:40
+  
+c:\program files (x86)\embarcadero\studio\20.0\bin\paclient_.exe
+-u8 "--put=c:\program files (x86)\embarcadero\studio\20.0\bin\Artwork\Android\FM_NotificationIcon_72x72.png,.\Android\Release\Teste_DataCardList_ImageFieldEX\res\drawable-xxhdpi\,1,ic_notification.png" 
+Platform Assistant Client  Version 11.2.13.8
+Copyright (c) 2010-2019 Embarcadero Technologies, Inc.
+
+Copying file(s)...
+Total file(s) copied: 0 file(s)  0 bytes
+
+-----------------------------------------------------------------
+17/06/2021 17:44:40
+  
+c:\program files (x86)\embarcadero\studio\20.0\bin\paclient_.exe
+-u8 "--put=c:\program files (x86)\embarcadero\studio\20.0\lib\android\debug\mips\libnative-activity.so,.\Android\Release\Teste_DataCardList_ImageFieldEX\library\lib\mips\,1,libTeste_DataCardList_ImageFieldEX.so" 
+Platform Assistant Client  Version 11.2.13.8
+Copyright (c) 2010-2019 Embarcadero Technologies, Inc.
+
+Copying file(s)...
+Total file(s) copied: 0 file(s)  0 bytes
+
+-----------------------------------------------------------------
+17/06/2021 17:44:41
+  
+c:\program files (x86)\embarcadero\studio\20.0\bin\paclient_.exe
+-u8 "--put=c:\program files (x86)\embarcadero\studio\20.0\bin\Artwork\Android\FM_NotificationIcon_48x48.png,.\Android\Release\Teste_DataCardList_ImageFieldEX\res\drawable-xhdpi\,1,ic_notification.png" 
+Platform Assistant Client  Version 11.2.13.8
+Copyright (c) 2010-2019 Embarcadero Technologies, Inc.
+
+Copying file(s)...
+Total file(s) copied: 0 file(s)  0 bytes
+
+-----------------------------------------------------------------
+17/06/2021 17:44:41
+  
+c:\program files (x86)\embarcadero\studio\20.0\bin\paclient_.exe
+-u8 --put=Android\Release\classes.dex,.\Android\Release\Teste_DataCardList_ImageFieldEX\classes\,1,classes.dex 
+Platform Assistant Client  Version 11.2.13.8
+Copyright (c) 2010-2019 Embarcadero Technologies, Inc.
+
+Copying file(s)...
+Total file(s) copied: 1 file(s)  5.715.688 bytes
+
+-----------------------------------------------------------------
+17/06/2021 17:44:41
+  
+c:\program files (x86)\embarcadero\studio\20.0\bin\paclient_.exe
+-u8 "--put=c:\program files (x86)\embarcadero\studio\20.0\bin\Artwork\Android\FM_SplashImage_960x720.png,.\Android\Release\Teste_DataCardList_ImageFieldEX\res\drawable-xlarge\,1,splash_image.png" 
+Platform Assistant Client  Version 11.2.13.8
+Copyright (c) 2010-2019 Embarcadero Technologies, Inc.
+
+Copying file(s)...
+Total file(s) copied: 0 file(s)  0 bytes
+
+-----------------------------------------------------------------
+17/06/2021 17:44:41
+  
+c:\program files (x86)\embarcadero\studio\20.0\bin\paclient_.exe
+-u8 "--put=c:\program files (x86)\embarcadero\studio\20.0\bin\Artwork\Android\FM_LauncherIcon_72x72.png,.\Android\Release\Teste_DataCardList_ImageFieldEX\res\drawable-hdpi\,1,ic_launcher.png" 
+Platform Assistant Client  Version 11.2.13.8
+Copyright (c) 2010-2019 Embarcadero Technologies, Inc.
+
+Copying file(s)...
+Total file(s) copied: 0 file(s)  0 bytes
+
+-----------------------------------------------------------------
+17/06/2021 17:44:42
+  
+c:\program files (x86)\embarcadero\studio\20.0\bin\paclient_.exe
+-u8 "--put=c:\program files (x86)\embarcadero\studio\20.0\bin\Artwork\Android\FM_LauncherIcon_96x96.png,.\Android\Release\Teste_DataCardList_ImageFieldEX\res\drawable-xhdpi\,1,ic_launcher.png" 
+Platform Assistant Client  Version 11.2.13.8
+Copyright (c) 2010-2019 Embarcadero Technologies, Inc.
+
+Copying file(s)...
+Total file(s) copied: 0 file(s)  0 bytes
+
+-----------------------------------------------------------------
+17/06/2021 17:44:42
+  
+c:\program files (x86)\embarcadero\studio\20.0\bin\paclient_.exe
+-u8 --put=C:\Delphi\FMX.ISComponents\demos\Teste_DataCardList\deployedassets.txt,.\Android\Release\Teste_DataCardList_ImageFieldEX\assets\deployinfo\,, 
+Platform Assistant Client  Version 11.2.13.8
+Copyright (c) 2010-2019 Embarcadero Technologies, Inc.
+
+Copying file(s)...
+Total file(s) copied: 1 file(s)  48 bytes
+
+-----------------------------------------------------------------
+17/06/2021 17:44:42
+  
+c:\program files (x86)\embarcadero\studio\20.0\bin\paclient_.exe
+-u8 --stripdebug=C:\Users\Public\Documents\Embarcadero\Studio\20.0\CatalogRepository\AndroidNDK-17b_20.0.36039.7899\toolchains\arm-linux-androideabi-4.9\prebuilt\windows\bin\arm-linux-androideabi-strip.exe,.\Android\Release\Teste_DataCardList_ImageFieldEX\debug\libTeste_DataCardList_ImageFieldEX.so,.\Android\Release\Teste_DataCardList_ImageFieldEX\library\lib\armeabi-v7a\libTeste_DataCardList_ImageFieldEX.so 
+Platform Assistant Client  Version 11.2.13.8
+Copyright (c) 2010-2019 Embarcadero Technologies, Inc.
+
+
+-----------------------------------------------------------------
+17/06/2021 17:44:42
+  
+c:\program files (x86)\embarcadero\studio\20.0\bin\paclient_.exe
+-u8 --aaptpackage=C:\Users\Public\Documents\Embarcadero\Studio\20.0\CatalogRepository\AndroidSDK-2525_20.0.36039.7899\build-tools\28.0.2\Aapt.exe,.\Android\Release\Teste_DataCardList_ImageFieldEX\library,.\Android\Release\Teste_DataCardList_ImageFieldEX\classes,.\Android\Release\Teste_DataCardList_ImageFieldEX\res,.\Android\Release\Teste_DataCardList_ImageFieldEX\assets,.\Android\Release\Teste_DataCardList_ImageFieldEX\AndroidManifest.xml,C:\Users\Public\Documents\Embarcadero\Studio\20.0\CatalogRepository\AndroidSDK-2525_20.0.36039.7899\platforms\android-29\android.jar,.\Android\Release\Teste_DataCardList_ImageFieldEX\bin\Teste_DataCardList_ImageFieldEX-unsigned.apk 
+Plataforma    : Android
+Build         : Release
+App           : Teste_DataCardList_ImageFieldEX
+Platform Assistant Client  Version 11.2.13.8
+Copyright (c) 2010-2019 Embarcadero Technologies, Inc.
+
+
+-----------------------------------------------------------------
+17/06/2021 17:44:50
+  
+c:\program files (x86)\embarcadero\studio\20.0\bin\paclient_.exe
+-u8 "--jarsign=C:\Program Files (x86)\Java\jdk1.8.0_131\bin\JarSigner.exe,.\Android\Release\Teste_DataCardList_ImageFieldEX\bin\Teste_DataCardList_ImageFieldEX-unsigned.apk,androiddebugkey,C:\Users\Dell\AppData\Roaming\Embarcadero\BDS\20.0\debug.keystore,MD5withRSA,SHA-256,android,android" 
+Platform Assistant Client  Version 11.2.13.8
+Copyright (c) 2010-2019 Embarcadero Technologies, Inc.
+
+
+-----------------------------------------------------------------
+17/06/2021 17:44:54
+  
+c:\program files (x86)\embarcadero\studio\20.0\bin\paclient_.exe
+-u8 --zipalign=C:\Users\Public\Documents\Embarcadero\Studio\20.0\CatalogRepository\AndroidSDK-2525_20.0.36039.7899\build-tools\28.0.2\ZipAlign.exe,.\Android\Release\Teste_DataCardList_ImageFieldEX\bin\Teste_DataCardList_ImageFieldEX-unsigned.apk,.\Android\Release\Teste_DataCardList_ImageFieldEX\bin\Teste_DataCardList_ImageFieldEX.apk,4 
+Platform Assistant Client  Version 11.2.13.8
+Copyright (c) 2010-2019 Embarcadero Technologies, Inc.
+
+
