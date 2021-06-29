@@ -1,0 +1,1283 @@
+object FormSearch: TFormSearch
+  Left = 0
+  Top = 0
+  Caption = 'p'
+  ClientHeight = 424
+  ClientWidth = 854
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object LaySearch: TISChildrenLayout
+    ClipChildren = True
+    HitTest = True
+    Position.X = 14.000000000000000000
+    Position.Y = 12.000000000000000000
+    Size.Width = 197.000000000000000000
+    Size.Height = 262.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    SidesLayouts.Sensibility = 10.000000000000000000
+    SidesLayouts.AniColor = claGray
+    SidesLayouts.AniSize = 50.000000000000000000
+    StatusBarColor = claNull
+    NaviBarColor = claNull
+    BackgroundColor = xFFFDDC13
+    BackgroundOpacity = 1.000000000000000000
+    OnShow = LaySearchShow
+    OnDeactivate = LaySearchDeactivate
+    Card.Direction = cdToUp
+    Card.AutoShow = True
+    Card.AniDuration = 0.300000011920929000
+    Card.HideOnClick = True
+    TransitionEffect.Effect = leNone
+    TransitionEffect.Duration = 0.300000011920929000
+    TransitionEffect.Transition = isPixelate
+    TransitionEffect.Time = etAfterActivate
+    ChildrenButtons.Buttons = <>
+    ChildrenButtons.IconColor = claGray
+    ChildrenButtons.IconSize = 40.000000000000000000
+    ChildrenButtons.PressColor = claLightgray
+    ChildrenButtons.EnterColor = claNull
+    ChildrenButtons.BottomColor = claNull
+    ChildrenButtons.TopColor = claNull
+    ChildrenButtons.ButtonsSpace = 8.000000000000000000
+    MenuEnabled = True
+    Button1IconType = isNone
+    Button2IconType = isNone
+    MessageColor = claBlack
+    ProgressColor = claCadetblue
+    HideOnButton1Click = False
+    HideOnButton2Click = False
+    BackButtonEnabled = True
+    ShowBackButton = False
+    ShowProgress = False
+    ShowTitleBar = True
+    ShowTitleButtons = True
+    ShowMenuButton = True
+    Progress = 0
+    object ISSearchEdit1: TISSearchEdit
+      ASCIIOnly = False
+      IsOpen = False
+      CanClose = True
+      CharCase = ecNormal
+      ButtonPosition = spLeft
+      AniDuration = 0.200000002980232200
+      EdgeSize = 1.000000000000000000
+      EdgeColor = claWhite
+      SearchPressColor = claLightgray
+      SearchEnterColor = claNull
+      Color = xFFF0F0F0
+      EditFontColor = claBlack
+      IconColor = claGray
+      Shadow.Enabled = False
+      Shadow.Color = claLightgray
+      Shadow.Radius = 12.000000000000000000
+      Shadow.Distance = 3.000000000000000000
+      Shadow.Opacity = 0.600000023841857900
+      IconMargins = 8.000000000000000000
+      PromptSettings.FontColor = claLightgray
+      PromptSettings.HorzAlign = Leading
+      MatchWords = False
+      Size.Width = 139.000000000000000000
+      Size.Height = 36.000000000000000000
+      Size.PlatformDefault = False
+      Position.X = 8.000000000000000000
+      Position.Y = 4.000000000000000000
+      Align = Top
+      HitTest = False
+      Margins.Left = 8.000000000000000000
+      Margins.Top = 4.000000000000000000
+      Margins.Right = 50.000000000000000000
+      Margins.Bottom = 4.000000000000000000
+    end
+    object BtCarrinho: TISIconButton
+      Color = claNull
+      EdgeColor = claBlack
+      Shadow.Enabled = False
+      Shadow.Color = claLightgray
+      Shadow.Radius = 12.000000000000000000
+      Shadow.Distance = 3.000000000000000000
+      Shadow.Opacity = 0.600000023841857900
+      CursorEnter = crDefault
+      Fill.Color = claNull
+      Stroke.Kind = None
+      Stroke.Thickness = 0.000000000000000000
+      CanFocus = True
+      Size.Width = 36.000000000000000000
+      Size.Height = 36.000000000000000000
+      Size.PlatformDefault = False
+      Position.X = 155.000000000000000000
+      Position.Y = 4.000000000000000000
+      Anchors = [akTop, akRight]
+      LongTapTime = 1.000000000000000000
+      ClickTime = 0.400000005960464500
+      TabOrder = 1
+      PressColor = claLightgray
+      EnterColor = claNull
+      LeaveOnMove = True
+      Origin = coNone
+      OriginAlign = Trailing
+      OriginRound = True
+      AnimateClick = True
+      AnimateTime = 0.400000005960464500
+      AnimateAngle = 10.000000000000000000
+      Icon = isShoppingOutline
+      IconColor = claBlack
+      IconPosition = Center
+      IconMargins = 6.000000000000000000
+      IconPressColor = claNull
+      IconEnterColor = claNull
+    end
+    object ListSearch: TISDataCardList
+      AllowSlide = False
+      SearchCancelOnClose = False
+      SearchOnTyping = False
+      FixedHeader = True
+      CardStop = False
+      AnimateTop = False
+      AnimateBottom = False
+      AnimateColor = claLightgray
+      AnimateOpacity = 0.500000000000000000
+      AnimateHeight = 60.000000000000000000
+      PullTop = False
+      PullBottom = False
+      PullWaitType = Spinner2
+      PullMaxWidth = 50.000000000000000000
+      BackgroundOpacity = 1.000000000000000000
+      SelectType = stNone
+      MaxVelocity = 3500
+      MinVelocity = 100
+      BackgroundColor = claNull
+      WaitLayout = ISWaitLayout1
+      ClickAnimationColor = claLightgray
+      ClickAnimationType = atCircle
+      Download = ISDownload1
+      Size.Width = 197.000000000000000000
+      Size.Height = 182.000000000000000000
+      Size.PlatformDefault = False
+      Align = Contents
+      Margins.Top = 80.000000000000000000
+    end
+    object ISIconTextButton1: TISIconTextButton
+      Color = claNull
+      EdgeColor = claBlack
+      Shadow.Enabled = False
+      Shadow.Color = claLightgray
+      Shadow.Radius = 12.000000000000000000
+      Shadow.Distance = 3.000000000000000000
+      Shadow.Opacity = 0.600000023841857900
+      CursorEnter = crDefault
+      Fill.Color = claNull
+      Stroke.Kind = None
+      Stroke.Thickness = 0.000000000000000000
+      CanFocus = True
+      Size.Width = 197.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      Position.Y = 48.000000000000000000
+      Align = Top
+      Margins.Top = 4.000000000000000000
+      LongTapTime = 1.000000000000000000
+      ClickTime = 0.400000005960464500
+      TabOrder = 2
+      PressColor = claLightgray
+      EnterColor = claNull
+      LeaveOnMove = True
+      Origin = coNone
+      OriginAlign = Trailing
+      OriginRound = True
+      AnimateClick = False
+      AnimateTime = 0.400000005960464500
+      AnimateAngle = 10.000000000000000000
+      Icon = isMapOutLine
+      IconColor = claGray
+      IconPosition = Leading
+      IconMargins = 4.000000000000000000
+      IconPressColor = claNull
+      IconEnterColor = claNull
+      Text = 'Enviar para Fulano Beltrano da Silva J'#250'nior'
+      TextMargins.Right = 30.000000000000000000
+      TextColor = claGray
+      TextWordWrap = False
+      TextHorAlign = Leading
+      TextVerAlign = Center
+      TextSettings.FontColor = claGray
+      TextSettings.WordWrap = False
+      TextSettings.HorzAlign = Leading
+      object ISIcon1: TISIcon
+        Color = claNull
+        EdgeColor = claBlack
+        Shadow.Enabled = False
+        Shadow.Color = claLightgray
+        Shadow.Radius = 12.000000000000000000
+        Shadow.Distance = 3.000000000000000000
+        Shadow.Opacity = 0.600000023841857900
+        CursorEnter = crDefault
+        Fill.Bitmap.Bitmap.PNG = {
+          89504E470D0A1A0A0000000D494844520000001C00000020080600000001B518
+          42000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+          00B849444154484BED923D0A02311046138FA0766A23783411AC6D0421D9428B
+          3D8178327F4AB15CAF10DFB0B1954CEC741E2C999D148FEF23CE300CE3CF0921
+          CCF9AEF9B78A413E4BD978EF1731C62EA5E4F34E854AD834CD1AD19E7188F4DE
+          6F7568138A74C7D1927442BDE77E5B4E552D02B213D225891FA49D31A77CF511
+          75C26FA912924E2A9574172A9E96A613D495223B20D84A9522CBEB6254426447
+          642BC627F35893EC8DB6D29664371EC9A846661886F19338F702BB6F3DCA46C0
+          B5A80000000049454E44AE426082}
+        Fill.Bitmap.WrapMode = TileStretch
+        Fill.Kind = Bitmap
+        Stroke.Kind = None
+        Stroke.Thickness = 0.000000000000000000
+        Size.Width = 28.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+        Position.X = 169.000000000000000000
+        Align = Right
+        LongTapTime = 1.000000000000000000
+        ClickTime = 0.400000005960464500
+        AnimateClick = False
+        AnimateTime = 0.400000005960464500
+        AnimateAngle = 10.000000000000000000
+        Icon = isNext
+        IconColor = claGray
+        IconMargins = 4.000000000000000000
+      end
+    end
+  end
+  object CardPromo: TISDataCard
+    Color = xFFFDDC13
+    EdgeColor = claBlack
+    Shadow.Enabled = False
+    Shadow.Color = claLightgray
+    Shadow.Radius = 12.000000000000000000
+    Shadow.Distance = 3.000000000000000000
+    Shadow.Opacity = 0.600000023841857900
+    CursorEnter = crDefault
+    Fill.Kind = Gradient
+    Fill.Gradient.Points = <
+      item
+        Color = xFFFDDC13
+        Offset = 0.000000000000000000
+      end
+      item
+        Color = xFFF0F0F0
+        Offset = 1.000000000000000000
+      end>
+    Fill.Gradient.StartPosition.X = 0.500000000000000000
+    Fill.Gradient.StopPosition.X = 0.499999970197677600
+    Stroke.Kind = None
+    Stroke.Thickness = 0.000000000000000000
+    CanFocus = True
+    Size.Width = 304.000000000000000000
+    Size.Height = 97.000000000000000000
+    Size.PlatformDefault = False
+    Position.X = 225.000000000000000000
+    Position.Y = 12.000000000000000000
+    AutoHeight = False
+    AutoHide = True
+    HeaderIndex = -1
+    Selected = False
+    SelectedColor = claWhite
+    Spacing = 8.000000000000000000
+    Columns = 1
+    CardType = ctUnique
+    SlideLeft = False
+    SlideRight = False
+    OnActivate = CardPromoActivate
+    object CarrosselOfertas: TISDataCardHorzList
+      SearchCancelOnClose = True
+      SearchOnTyping = False
+      CardStop = True
+      AnimatePullLeft = False
+      AnimatePullRight = False
+      AnimateLeft = False
+      AnimateRight = False
+      AnimateColor = claLightgray
+      AnimateOpacity = 0.500000000000000000
+      PullLeft = False
+      PullRight = False
+      Circular = True
+      AutoScroll = True
+      BackgroundOpacity = 1.000000000000000000
+      AutoScrollTime = 5.000000000000000000
+      MaxVelocity = 3500
+      MinVelocity = 100
+      Step = 1
+      ColorClicked = claNull
+      BackgroundColor = claNull
+      ClickAnimationColor = claGray
+      ClickAnimationType = atCircle
+      Size.Width = 304.000000000000000000
+      Size.Height = 97.000000000000000000
+      Size.PlatformDefault = False
+      Align = Client
+    end
+  end
+  object CardOptions: TISDataCard
+    Color = xFFF0F0F0
+    EdgeColor = claBlack
+    Shadow.Enabled = False
+    Shadow.Color = claLightgray
+    Shadow.Radius = 12.000000000000000000
+    Shadow.Distance = 3.000000000000000000
+    Shadow.Opacity = 0.600000023841857900
+    CursorEnter = crDefault
+    Fill.Color = xFFF0F0F0
+    Stroke.Kind = None
+    Stroke.Thickness = 0.000000000000000000
+    CanFocus = True
+    Size.Width = 304.000000000000000000
+    Size.Height = 154.000000000000000000
+    Size.PlatformDefault = False
+    Position.X = 222.000000000000000000
+    Position.Y = 120.000000000000000000
+    AutoHeight = False
+    AutoHide = True
+    HeaderIndex = -1
+    Selected = False
+    SelectedColor = claWhite
+    Spacing = 8.000000000000000000
+    Columns = 1
+    CardType = ctDetail
+    SlideLeft = False
+    SlideRight = False
+    object ISGridLayout1: TISGridLayout
+      Align = Client
+      HitTest = False
+      ItemHeight = 114.000000000000000000
+      ItemWidth = 58.000000000000000000
+      Orientation = Horizontal
+      Margins.Left = 6.000000000000000000
+      Margins.Top = 8.000000000000000000
+      Margins.Right = 6.000000000000000000
+      Margins.Bottom = 32.000000000000000000
+      Size.Width = 292.000000000000000000
+      Size.Height = 114.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Columns = 5
+      Lines = 1
+      BackgroundColor = claNull
+      BackgroundOpacity = 1.000000000000000000
+      ShowGridLines = False
+      ShowBorder = False
+      object Layout2: TLayout
+        Margins.Left = 3.000000000000000000
+        Margins.Right = 3.000000000000000000
+        Position.X = 3.000000000000000000
+        Size.Width = 52.000000000000000000
+        Size.Height = 114.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 7
+        object ISCircleIcon2: TISCircleIcon
+          Fill.Color = xFFF8F8F8
+          Stroke.Kind = None
+          Stroke.Thickness = 0.000000000000000000
+          Color = xFFF8F8F8
+          EdgeColor = claBlack
+          Locked = True
+          Size.Width = 52.000000000000000000
+          Size.Height = 86.000000000000000000
+          Size.PlatformDefault = False
+          Opacity = 1.000000000000000000
+          Align = Client
+          HitTest = True
+          LongTapTime = 1.000000000000000000
+          ClickTime = 0.400000005960464500
+          PressColor = claLightgray
+          EnterColor = xFFF8F8F8
+          LeaveOnMove = True
+          TextColor = claBlack
+          Icon = isQRCode
+          IconColor = claGray
+          IconMargins = 18.000000000000000000
+        end
+        object Text2: TText
+          Align = Bottom
+          HitTest = False
+          Position.Y = 86.000000000000000000
+          Size.Width = 52.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'Pagar com c'#243'digo QR'
+          TextSettings.Font.Size = 10.000000000000000000
+          TextSettings.FontColor = claGray
+          TextSettings.VertAlign = Leading
+        end
+      end
+      object Layout3: TLayout
+        Margins.Left = 3.000000000000000000
+        Margins.Right = 3.000000000000000000
+        Position.X = 61.000000000000000000
+        Size.Width = 52.000000000000000000
+        Size.Height = 114.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 6
+        object ISCircleIcon3: TISCircleIcon
+          Fill.Color = xFFF8F8F8
+          Stroke.Kind = None
+          Stroke.Thickness = 0.000000000000000000
+          Color = xFFF8F8F8
+          EdgeColor = claBlack
+          Locked = True
+          Size.Width = 52.000000000000000000
+          Size.Height = 86.000000000000000000
+          Size.PlatformDefault = False
+          Opacity = 1.000000000000000000
+          Align = Client
+          HitTest = True
+          LongTapTime = 1.000000000000000000
+          ClickTime = 0.400000005960464500
+          PressColor = claLightgray
+          EnterColor = xFFF8F8F8
+          LeaveOnMove = True
+          TextColor = claBlack
+          Icon = isTag
+          IconColor = claGray
+          IconMargins = 18.000000000000000000
+        end
+        object Text3: TText
+          Align = Bottom
+          HitTest = False
+          Position.Y = 86.000000000000000000
+          Size.Width = 52.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'Ofertas'
+          TextSettings.Font.Size = 10.000000000000000000
+          TextSettings.FontColor = claGray
+          TextSettings.VertAlign = Leading
+        end
+      end
+      object Layout4: TLayout
+        Margins.Left = 3.000000000000000000
+        Margins.Right = 3.000000000000000000
+        Position.X = 119.000000000000000000
+        Size.Width = 52.000000000000000000
+        Size.Height = 114.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 5
+        object ISCircleIcon4: TISCircleIcon
+          Fill.Color = xFFF8F8F8
+          Stroke.Kind = None
+          Stroke.Thickness = 0.000000000000000000
+          Color = xFFF8F8F8
+          EdgeColor = claBlack
+          Locked = True
+          Size.Width = 52.000000000000000000
+          Size.Height = 86.000000000000000000
+          Size.PlatformDefault = False
+          Opacity = 1.000000000000000000
+          Align = Client
+          HitTest = True
+          LongTapTime = 1.000000000000000000
+          ClickTime = 0.400000005960464500
+          PressColor = claLightgray
+          EnterColor = xFFF8F8F8
+          LeaveOnMove = True
+          TextColor = claBlack
+          Icon = isBasketOutLine
+          IconColor = claGray
+          IconMargins = 18.000000000000000000
+        end
+        object Text4: TText
+          Align = Bottom
+          HitTest = False
+          Position.Y = 86.000000000000000000
+          Size.Width = 52.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'Mercado'
+          TextSettings.Font.Size = 10.000000000000000000
+          TextSettings.FontColor = claGray
+          TextSettings.VertAlign = Leading
+        end
+      end
+      object Layout5: TLayout
+        Margins.Left = 3.000000000000000000
+        Margins.Right = 3.000000000000000000
+        Position.X = 177.000000000000000000
+        Size.Width = 52.000000000000000000
+        Size.Height = 114.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 4
+        object ISCircleIcon5: TISCircleIcon
+          Fill.Color = xFFF8F8F8
+          Stroke.Kind = None
+          Stroke.Thickness = 0.000000000000000000
+          Color = xFFF8F8F8
+          EdgeColor = claBlack
+          Locked = True
+          Size.Width = 52.000000000000000000
+          Size.Height = 86.000000000000000000
+          Size.PlatformDefault = False
+          Opacity = 1.000000000000000000
+          Align = Client
+          HitTest = True
+          LongTapTime = 1.000000000000000000
+          ClickTime = 0.400000005960464500
+          PressColor = claLightgray
+          EnterColor = xFFF8F8F8
+          LeaveOnMove = True
+          TextColor = claBlack
+          Icon = isCarOutLine
+          IconColor = claGray
+          IconMargins = 18.000000000000000000
+        end
+        object Text5: TText
+          Align = Bottom
+          HitTest = False
+          Position.Y = 86.000000000000000000
+          Size.Width = 52.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'Carros, motos e outros'
+          TextSettings.Font.Size = 10.000000000000000000
+          TextSettings.FontColor = claGray
+          TextSettings.VertAlign = Leading
+        end
+      end
+      object Layout6: TLayout
+        Margins.Left = 3.000000000000000000
+        Margins.Right = 3.000000000000000000
+        Position.X = 235.000000000000000000
+        Size.Width = 52.000000000000000000
+        Size.Height = 114.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 3
+        object ISCircleIcon6: TISCircleIcon
+          Fill.Color = xFFF8F8F8
+          Stroke.Kind = None
+          Stroke.Thickness = 0.000000000000000000
+          Color = xFFF8F8F8
+          EdgeColor = claBlack
+          Locked = True
+          Size.Width = 52.000000000000000000
+          Size.Height = 86.000000000000000000
+          Size.PlatformDefault = False
+          Opacity = 1.000000000000000000
+          Align = Client
+          HitTest = True
+          LongTapTime = 1.000000000000000000
+          ClickTime = 0.400000005960464500
+          PressColor = claLightgray
+          EnterColor = xFFF8F8F8
+          LeaveOnMove = True
+          TextColor = claBlack
+          Icon = isAdd
+          IconColor = claGray
+          IconMargins = 18.000000000000000000
+        end
+        object Text6: TText
+          Align = Bottom
+          HitTest = False
+          Position.Y = 86.000000000000000000
+          Size.Width = 52.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'Ver mais'
+          TextSettings.Font.Size = 10.000000000000000000
+          TextSettings.FontColor = claGray
+          TextSettings.VertAlign = Leading
+        end
+      end
+    end
+  end
+  object CardBottom: TISDataCard
+    Color = xFFF0F0F0
+    EdgeColor = claBlack
+    Shadow.Enabled = False
+    Shadow.Color = claLightgray
+    Shadow.Radius = 12.000000000000000000
+    Shadow.Distance = 3.000000000000000000
+    Shadow.Opacity = 0.600000023841857900
+    CursorEnter = crDefault
+    Fill.Color = xFFF0F0F0
+    Stroke.Kind = None
+    Stroke.Thickness = 0.000000000000000000
+    CanFocus = True
+    Size.Width = 85.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    Position.X = 15.000000000000000000
+    Position.Y = 282.000000000000000000
+    AutoHeight = False
+    AutoHide = True
+    HeaderIndex = -1
+    Selected = False
+    SelectedColor = claWhite
+    Spacing = 8.000000000000000000
+    Columns = 1
+    CardType = ctDetail
+    SlideLeft = False
+    SlideRight = False
+  end
+  object CardSessoes: TISDataCard
+    Color = xFFF0F0F0
+    EdgeColor = claBlack
+    Shadow.Enabled = False
+    Shadow.Color = claLightgray
+    Shadow.Radius = 12.000000000000000000
+    Shadow.Distance = 3.000000000000000000
+    Shadow.Opacity = 0.600000023841857900
+    CursorEnter = crDefault
+    Fill.Color = xFFF0F0F0
+    Stroke.Kind = None
+    Stroke.Thickness = 0.000000000000000000
+    CanFocus = True
+    Size.Width = 289.000000000000000000
+    Size.Height = 399.000000000000000000
+    Size.PlatformDefault = False
+    Position.X = 549.000000000000000000
+    Position.Y = 12.000000000000000000
+    AutoHeight = False
+    AutoHide = True
+    HeaderIndex = -1
+    Selected = False
+    SelectedColor = claWhite
+    Spacing = 8.000000000000000000
+    Columns = 1
+    CardType = ctDetail
+    SlideLeft = False
+    SlideRight = False
+    OnLoadRecord = CardSessoesLoadRecord
+    OnActivate = CardSessoesActivate
+    object CabCard: TISTextField
+      Color = claWhite
+      Corners = [TopLeft, TopRight]
+      CornerWidth = 8.000000000000000000
+      EdgeColor = claBlack
+      Shadow.Enabled = False
+      Shadow.Color = claLightgray
+      Shadow.Radius = 12.000000000000000000
+      Shadow.Distance = 3.000000000000000000
+      Shadow.Opacity = 0.600000023841857900
+      CursorEnter = crDefault
+      Stroke.Kind = None
+      Stroke.Thickness = 0.000000000000000000
+      CanFocus = True
+      Size.Width = 273.000000000000000000
+      Size.Height = 34.000000000000000000
+      Size.PlatformDefault = False
+      Position.X = 8.000000000000000000
+      Position.Y = 8.000000000000000000
+      Align = Top
+      HitTest = False
+      Margins.Left = 8.000000000000000000
+      Margins.Top = 8.000000000000000000
+      Margins.Right = 8.000000000000000000
+      LongTapTime = 1.000000000000000000
+      ClickTime = 0.400000005960464500
+      MinHeight = 26.000000000000000000
+      AutoHeight = False
+      AutoWidth = False
+      Text = 'Cabe'#231'alho'
+      TextMargin = 10.000000000000000000
+      TextSettings.Font.Size = 15.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.HorzAlign = Leading
+      HideIfEmpty = False
+      CharCase = ecNormal
+      TextType = ttString
+      TextColor = claBlack
+      BackgroundColor = claWhite
+      BackgroundOpacity = 1.000000000000000000
+      PaintIfEmpty = True
+      TextHorzAlign = Leading
+      TextVertAlign = Center
+      TextWordWrap = True
+      FieldName = 'Cab'
+    end
+    object CardProduto: TISControl
+      Color = claWhite
+      EdgeColor = claBlack
+      Shadow.Enabled = False
+      Shadow.Color = claLightgray
+      Shadow.Radius = 12.000000000000000000
+      Shadow.Distance = 3.000000000000000000
+      Shadow.Opacity = 0.600000023841857900
+      CursorEnter = crDefault
+      Fill.Color = claWhite
+      Stroke.Kind = None
+      Stroke.Thickness = 0.000000000000000000
+      CanFocus = True
+      Size.Width = 273.000000000000000000
+      Size.Height = 305.000000000000000000
+      Size.PlatformDefault = False
+      Align = Client
+      HitTest = False
+      Margins.Left = 8.000000000000000000
+      Margins.Top = 2.000000000000000000
+      Margins.Right = 8.000000000000000000
+      Margins.Bottom = 2.000000000000000000
+      LongTapTime = 1.000000000000000000
+      ClickTime = 0.400000005960464500
+      object ISImageField1: TISImageFieldEx
+        Color = claWhite
+        EdgeColor = claBlack
+        Shadow.Enabled = False
+        Shadow.Color = claLightgray
+        Shadow.Radius = 12.000000000000000000
+        Shadow.Distance = 3.000000000000000000
+        Shadow.Opacity = 0.600000023841857900
+        CursorEnter = crDefault
+        Fill.Bitmap.WrapMode = TileStretch
+        Fill.Kind = Bitmap
+        Stroke.Kind = None
+        Stroke.Thickness = 0.000000000000000000
+        CanFocus = True
+        Size.Width = 257.000000000000000000
+        Size.Height = 189.000000000000000000
+        Size.PlatformDefault = False
+        Position.X = 8.000000000000000000
+        Align = Top
+        HitTest = False
+        Margins.Left = 8.000000000000000000
+        Margins.Right = 8.000000000000000000
+        LongTapTime = 1.000000000000000000
+        ClickTime = 0.400000005960464500
+        DataType = itURLBitmap
+        AutoHeight = False
+        AutoLoadInList = True
+        FieldName = 'Imagem'
+        ShowDefaultImage = False
+        ShowErrorImage = False
+        HttpCache = True
+        HttpTimeOut = 10000
+        Fade = True
+        FadeTime = 0.300000011920929000
+        FullSize = False
+      end
+      object ISTextField1: TISTextField
+        Color = claNull
+        EdgeColor = claBlack
+        Shadow.Enabled = False
+        Shadow.Color = claLightgray
+        Shadow.Radius = 12.000000000000000000
+        Shadow.Distance = 3.000000000000000000
+        Shadow.Opacity = 0.600000023841857900
+        CursorEnter = crDefault
+        Stroke.Kind = None
+        Stroke.Thickness = 0.000000000000000000
+        CanFocus = True
+        Size.Width = 257.000000000000000000
+        Size.Height = 40.000000000000000000
+        Size.PlatformDefault = False
+        Position.X = 8.000000000000000000
+        Position.Y = 189.000000000000000000
+        Align = Top
+        HitTest = False
+        Margins.Left = 8.000000000000000000
+        Margins.Right = 8.000000000000000000
+        LongTapTime = 1.000000000000000000
+        ClickTime = 0.400000005960464500
+        MinHeight = 26.000000000000000000
+        AutoHeight = False
+        AutoWidth = False
+        Text = ''
+        TextSettings.HorzAlign = Leading
+        HideIfEmpty = False
+        CharCase = ecNormal
+        TextType = ttString
+        TextColor = claBlack
+        BackgroundColor = claNull
+        PaintIfEmpty = True
+        TextHorzAlign = Leading
+        TextVertAlign = Center
+        TextWordWrap = True
+        FieldName = 'DescProd'
+      end
+      object ISTextField2: TISTextField
+        Color = claNull
+        EdgeColor = claBlack
+        Shadow.Enabled = False
+        Shadow.Color = claLightgray
+        Shadow.Radius = 12.000000000000000000
+        Shadow.Distance = 3.000000000000000000
+        Shadow.Opacity = 0.600000023841857900
+        CursorEnter = crDefault
+        Stroke.Kind = None
+        Stroke.Thickness = 0.000000000000000000
+        CanFocus = True
+        Size.Width = 117.000000000000000000
+        Size.Height = 20.000000000000000000
+        Size.PlatformDefault = False
+        Position.X = 8.000000000000000000
+        Position.Y = 229.000000000000000000
+        HitTest = False
+        Margins.Left = 8.000000000000000000
+        Margins.Right = 8.000000000000000000
+        LongTapTime = 1.000000000000000000
+        ClickTime = 0.400000005960464500
+        MinHeight = 26.000000000000000000
+        AutoHeight = False
+        AutoWidth = False
+        ShowMore = False
+        Text = ''
+        TextSettings.Font.Size = 16.000000000000000000
+        TextSettings.WordWrap = False
+        TextSettings.HorzAlign = Leading
+        HideIfEmpty = False
+        CharCase = ecNormal
+        TextType = ttString
+        TextColor = claBlack
+        BackgroundColor = claNull
+        PaintIfEmpty = True
+        TextHorzAlign = Leading
+        TextVertAlign = Center
+        TextWordWrap = False
+        FieldName = 'PreUni'
+      end
+      object ISTextField3: TISTextField
+        Color = claNull
+        EdgeColor = claBlack
+        Shadow.Enabled = False
+        Shadow.Color = claLightgray
+        Shadow.Radius = 12.000000000000000000
+        Shadow.Distance = 3.000000000000000000
+        Shadow.Opacity = 0.600000023841857900
+        CursorEnter = crDefault
+        Fill.Color = claGreen
+        Stroke.Kind = None
+        Stroke.Thickness = 0.000000000000000000
+        CanFocus = True
+        Size.Width = 139.000000000000000000
+        Size.Height = 20.000000000000000000
+        Size.PlatformDefault = False
+        Position.X = 126.000000000000000000
+        Position.Y = 229.000000000000000000
+        HitTest = False
+        LongTapTime = 1.000000000000000000
+        ClickTime = 0.400000005960464500
+        MinHeight = 26.000000000000000000
+        AutoHeight = False
+        AutoWidth = False
+        Text = ''
+        TextSettings.Font.Size = 11.000000000000000000
+        TextSettings.FontColor = claGreen
+        TextSettings.WordWrap = False
+        HideIfEmpty = False
+        CharCase = ecNormal
+        TextType = ttString
+        TextColor = claGreen
+        BackgroundColor = claNull
+        PaintIfEmpty = True
+        TextHorzAlign = Center
+        TextVertAlign = Center
+        TextWordWrap = False
+        FieldName = 'desc'
+      end
+      object parcelas: TISTextField
+        Color = claNull
+        EdgeColor = claBlack
+        Shadow.Enabled = False
+        Shadow.Color = claLightgray
+        Shadow.Radius = 12.000000000000000000
+        Shadow.Distance = 3.000000000000000000
+        Shadow.Opacity = 0.600000023841857900
+        CursorEnter = crDefault
+        Fill.Color = claGreen
+        Stroke.Kind = None
+        Stroke.Thickness = 0.000000000000000000
+        CanFocus = True
+        Size.Width = 257.000000000000000000
+        Size.Height = 20.000000000000000000
+        Size.PlatformDefault = False
+        Position.X = 8.000000000000000000
+        Position.Y = 248.000000000000000000
+        HitTest = False
+        LongTapTime = 1.000000000000000000
+        ClickTime = 0.400000005960464500
+        MinHeight = 26.000000000000000000
+        AutoHeight = False
+        AutoWidth = False
+        Text = ''
+        TextSettings.FontColor = claGreen
+        TextSettings.WordWrap = False
+        TextSettings.HorzAlign = Leading
+        HideIfEmpty = False
+        CharCase = ecNormal
+        TextType = ttString
+        TextColor = claGreen
+        BackgroundColor = claNull
+        PaintIfEmpty = True
+        TextHorzAlign = Leading
+        TextVertAlign = Center
+        TextWordWrap = False
+        FieldName = 'Parcelas'
+      end
+      object ISTextField4: TISTextField
+        Color = claNull
+        EdgeColor = claBlack
+        Shadow.Enabled = False
+        Shadow.Color = claLightgray
+        Shadow.Radius = 12.000000000000000000
+        Shadow.Distance = 3.000000000000000000
+        Shadow.Opacity = 0.600000023841857900
+        CursorEnter = crDefault
+        Fill.Color = claGreen
+        Stroke.Kind = None
+        Stroke.Thickness = 0.000000000000000000
+        CanFocus = True
+        Size.Width = 59.343750000000000000
+        Size.Height = 20.000000000000000000
+        Size.PlatformDefault = False
+        Position.X = 8.000000000000000000
+        Position.Y = 268.000000000000000000
+        HitTest = False
+        LongTapTime = 1.000000000000000000
+        ClickTime = 0.400000005960464500
+        MinHeight = 26.000000000000000000
+        AutoHeight = False
+        AutoWidth = True
+        Text = 'Frete gr'#225'tis'
+        TextSettings.FontColor = claGreen
+        TextSettings.WordWrap = False
+        TextSettings.HorzAlign = Leading
+        HideIfEmpty = False
+        CharCase = ecNormal
+        TextType = ttString
+        TextColor = claGreen
+        BackgroundColor = claNull
+        PaintIfEmpty = True
+        TextHorzAlign = Leading
+        TextVertAlign = Center
+        TextWordWrap = False
+        FieldName = 'TipFrete'
+        object Image1: TImage
+          MultiResBitmap.Height = 60
+          MultiResBitmap.Width = 200
+          MultiResBitmap = <
+            item
+              Width = 200
+              Height = 60
+              PNG = {
+                89504E470D0A1A0A0000000D49484452000000C80000003C0806000000235BF5
+                91000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+                0AF449444154785EED9D6B88644715C74FD5CD6C645DC180B8F8206E20886C44
+                B767360F8CF84C8C8FC4643FC4207929221A5083040DF1898F28C987104D3EC4
+                4FEA6ABE083EE20621C104DFC475677A63C6282238AEF821414840BD9299E92A
+                FFA7EF59323B7DABEADEBE75EBEE9AFA41CF3D6798EEBE537D4E3DCE39554D99
+                4C2693C96432994C26931025D7DE28C6C5152246C192DD6546E6BBA26632BDD2
+                AF838C699F26FD6B483BAB5F44E1B370902F8B9CC9F48A966B2F28ABDE8B4B4C
+                E728CD3EF315913399DEE9CF412C69B5A9DE275A0C4A45EA6A8C7946F44CA677
+                FA7390315D400BF462D162B036194D7E2472269384DE1C442975AD8831280D99
+                AB45CE6492D19F8390BA4EC4CE586BEFA7111D15359349462F0E528C8BB78918
+                83D21AFB09913399A4F4E220C69A0FE012257A85D1E36EDA4FC744CD6492123F
+                0F32A6176AD2FF8014C3414AB360CEA057D3BAE8994C52A23B0867CE2DD91F8A
+                DA85922CDD6016CD41D1D332A63D70F46B700F71C3CA8AB42FD1A957F4C770D9
+                5569DBE0E72E983BD161FC5B7ED308BCE6A744AC056DECCD2D05EF2962E2568F
+                F5679C6DAEE858EA2A8AE80EA2C6EA3E2CD0DF2D6A171E47639C2372726014D7
+                A175BE2D6A3430657CD82EDAB78A7A22ABB4436FE8A720B946DF126DF27C919B
+                7184CED485FE2324D76BFADB799576E19E9E8054FF7C4387CD92395FB46EACD0
+                5EADF4EF20D5BF97A54F879C393671D720985EC1392E12AD0BA5B2EA46910701
+                A3E0BB448C0ADAE7211167D9A097E2A7736A3A8DE6B5A4288A57E1E27C4DE0EF
+                04D6E94CFCF43DFF9B72ED0C9C631117E77B19323F133119511D0453924B71F1
+                3566330CAD4E16273F156D10D4A67A93885181831C1671066DF51B44AC452975
+                48C4C6C0A8DE28622DE8885644AC25744F4699DF8BD8196B1C236B450903FB8B
+                C8C9881DC5BA45AE5D28D1E8EF177918302DA105C79CBB1BE5444F9C068551EB
+                B522D6C1C9D255919B6368BF48759413353922722D56FBEF8976A0B522A1B47A
+                8F88B3A0D3A47DF4A468C988E7206C54447B2A657E60240769911E1775100A5D
+                BC1297EE23E17636B0B8F67CC81821DE2E623D6D93A55C0FA7D5EB45AB67444F
+                8B544B20E1BB162DC278D45F9604BB18C426A23988D69AF77D7435AA120D1163
+                14EA8455F60211A3620BEB3670ACDFF0D3D9C160FAF12B119BB382AEC6F39960
+                4D738F88F554F7E4649E3591134367E3A7F35E615FF7899894782388A5AEB552
+                1CD6BD35D4A3A5004E7AAE8875F054E72C3331AF68FBC074E52A798D190A5BF0
+                54C86920185D7E2E6263307CEC15B1168C0E8F8A584B41C579B8F8EEE931113B
+                837B7D8B887594133BF9B3C8498913E60D85E79AB0414F9AF3CC6ED18603D312
+                7D54FF0B52FDFF1233ACB9053DD69FC4E5B64A9B058BE98BDB062E4221777674
+                74486BA2CE30CD9F28745A0E42CF6F43E05EDB87B72311C541A6C91DA22F55DA
+                7C707E003DD20330D0E7C9AFE661B3739CBC72F63F88368BA5CFE33DBE285A34
+                D086FC9EAE1E9F031767B55DA4E235FF838BABD3E22A85DDBEA4A35ED6BFC51C
+                8347913AE2553984F23F3D754A4D88E520BE0F22153CF539A76B8F86FFE51A5C
+                BE5369B3A0973B107D5F4A68D49A27695A5502B0D3D5BE26D6340FDA257B89A8
+                B3048CD69BF06C4B75AF7F156D164B37A253FABA6849E9BE0659F6861153511A
+                6B2E8E31DC0762F1349D0BC3A0D9805A3D7C8CC99BCC8331B60EEF62FDE08DC4
+                05D734EBFE45333A8A688B66388737D286F71A2CAAD9D941D0D057E2E26CC804
+                4C6BB668917E237A27BCB178C0D32FF4F613F4AECFB4783CE50B63E23539DAE4
+                046DDC3E41688DD7D131DA7AB3D2A17BC2F3A3E53FD0018C44AC2398ABE9936E
+                0E829E111FDE47441B82128D7B0F86DF38058D8158FCDC04925C96EC8522D631
+                5F8290FC094274CBDE5E39744F1813A365D061431F1671166EBB01239BDD1C64
+                7DFA210C367A706E00F3E09B44ED4E20163F2F565B6F3907A610DE720E1848BB
+                04E12AED82D1F97339A104A151DE11A46D45B113DCAB48B584DAAE6F3A3988B2
+                EA83220E41694FB797891C05CC857BA9BFC2EB3E20E22C8104E1B4076DCB3381
+                350D572BF860A3D570010718B5EF16B13BEBF41AFCF4AD75F85CB5C198DF41AA
+                3206EF7CBD47AA8855E48D54301C5FDDD1BC78935CA104213EA1EF8BD41838A4
+                37701232BA62BDE0D1C76DB4311384817BC55AEAD41C418A478B77E2127D3AD2
+                806811AB13A8D6535C8D1C1F4F6D9955D6BF400F54DBD681D77CB388B5A073F1
+                96ADA0A3F066E043CF6F03EED55FC13BA23F893C0873E741226E8C6A43894FE7
+                26B364FC3544F31088C573DC1FADD5BEDCC1622AE859270512846C8C67B45DA4
+                3648107A137C491384A5FEBBE7FCB44137CD31F33948DC7DE74D9946ACA22ECA
+                B7D0204178C964347950D4688492AC30C617B45A1007CA7ED086DF431B3A6BC2
+                18DF3D6174F9B11DD9CB45ED46B5DBF16FA2D571331CE4769107615E07D90783
+                B9128FFFCA6FE6A571790AF7E0D132B735A815751BA6585C0F558B5166771FFB
+                11820ED2F27D43FF07B81646E7DED79D70DB6BE8FC82BE3AA536442935998B50
+                79C189F47EBA89D750B990F25CF312B456F47381430E02FC06BD95407909E0E0
+                C6CB7C53B690D162FD7761ACA4AC5ED19F439B7E41D4ED04EF3505DDF2201DC0
+                07D93402D64BC4EA0442B1F8C2FEA40FE768C8371A2530793EBF81B583C7D930
+                0AF309955E83435BBBEBB3984082B1158A7C53BDB5A19D8319CC41F061F93F88
+                0A3EBCE1723454DC88D576C2B17836BC5E406F7DA7882E76EA75FD184F6B459F
+                85BF8765438F0387859756D9AF8AECC612D770B961A3E55AB4A60F17557D9A7B
+                8318D95F8850FFBA758F1E18668A851E51DBE9F4CA37B5E82F62B58DE9B94F8A
+                BE26EA0CE85547308C7ECE065EA6FD5A6B2E1CF4B50553E2B10643B85769352D
+                F34027C34EC3DFC1C286E67DBE35F65B76C9FAF7FAC70EBEF8F6F8ACD0EBB0D6
+                F1E563CAE916E5EA6C80E0FDA02D6EC71AF56651A331C808A28DE6BDD75EE740
+                0F7230857330C158FC428F7BE497E8083EDC4744F3C1EDB5178E7C2BFEFE103F
+                A073908343C421032AADB61F17D98D6DF45A8DB10BF60722CE800E92476D1F3B
+                65446C743F3193975B19C44160FCD78B588FA1553BB23788D62F189AD586A76E
+                897BB13ED73F00EDF1515C7884E803FEE2A1034DE6F30D8CB615188D9C253670
+                D8778818058CF2D192975B49EF20A1423A1E964FF7976A4765995EEE9DBB2FD0
+                5D22F5479569FF101EB19D64BA15A069A834B2D196139A38A7A5DE4EA93D3CCA
+                FF53E4A824779062B3E08240D7B0C9E1DCF35B25C63A521485BFD483D43CA5E6
+                ADE1502EDE8B0FBE88E524D391A3CD5600FC7D8C53319FC5155C897CEED8F4C4
+                979E6C26B98318635CDF3C952662B50D0CCDDE134C266A1225E6DF04DECA8B0E
+                6237D61777409DD751B8E2E00E7E9D5649B671F733CDB68269A3F38089E2B4C2
+                1B356C8BD2EA972246276D14AB8AD5D7ED73E6A9C02D43EC3B969AB2B3E129B5
+                3DD0508705F054146D75058CFDB22D45947546357524FCDDFDF8BB4370F860AE
+                A38E62A5B8C86EDA7BA988D041698C0E86EE720559747582CBF5AE366FC584F6
+                98D3CC8158C9CBEDA47590FAD0DE3462956C517EAA22FB460A5BBC8855CCEFD9
+                319EA61D742CE594F4B9465207A9AD131AF048974C26445207A9A93BE245B9F7
+                6CA64C6648D22DD2674B258ED75865E7C89CB42473104D9ABFF9F6F8E85162AA
+                7555EA88552673D2A20FEB2730C5B23CCDD2CBDA7DCC4B26731291660DF2EC3E
+                85693832B4A32D9339594832C53A5E9C08E778243B47E65422898358B2077029
+                ED8E487B993399FF1B788F018777239732643229E87D04C1DAE3D269115E8E58
+                6532B3F02100226632994C2693C9643299E73A44FF03AA457659D43C241B0000
+                000049454E44AE426082}
+              FileName = 'D:\Aulas\Curso\Fontes\MercadoLivre\Imagens\FreteFull.png'
+            end>
+          Align = Right
+          Margins.Right = -66.000000000000000000
+          Margins.Bottom = -3.000000000000000000
+          Position.X = 62.343750000000000000
+          Size.Width = 63.000000000000000000
+          Size.Height = 23.000000000000000000
+          Size.PlatformDefault = False
+        end
+      end
+    end
+    object ISIconTextButtonField1: TISIconTextButtonField
+      Color = claWhite
+      Corners = [BottomLeft, BottomRight]
+      CornerWidth = 8.000000000000000000
+      EdgeColor = claBlack
+      Shadow.Enabled = False
+      Shadow.Color = claLightgray
+      Shadow.Radius = 12.000000000000000000
+      Shadow.Distance = 3.000000000000000000
+      Shadow.Opacity = 0.600000023841857900
+      CursorEnter = crDefault
+      Fill.Color = claWhite
+      Stroke.Kind = None
+      Stroke.Thickness = 0.000000000000000000
+      CanFocus = True
+      Size.Width = 273.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      Position.X = 8.000000000000000000
+      Position.Y = 351.000000000000000000
+      Align = Bottom
+      Margins.Left = 8.000000000000000000
+      Margins.Right = 8.000000000000000000
+      Margins.Bottom = 8.000000000000000000
+      LongTapTime = 1.000000000000000000
+      ClickTime = 0.400000005960464500
+      TabOrder = 2
+      PressColor = claLightgray
+      EnterColor = claWhite
+      LeaveOnMove = True
+      Origin = coNone
+      OriginAlign = Trailing
+      OriginRound = True
+      AnimateClick = False
+      AnimateTime = 0.400000005960464500
+      AnimateAngle = 10.000000000000000000
+      Icon = isNext
+      IconColor = claBlue
+      IconPosition = Trailing
+      IconMargins = 8.000000000000000000
+      IconPressColor = claNull
+      IconEnterColor = claNull
+      Text = 'Bot'#227'o rodap'#233
+      TextMargins.Left = 10.000000000000000000
+      TextColor = claBlue
+      TextWordWrap = True
+      TextHorAlign = Leading
+      TextVerAlign = Center
+      TextSettings.FontColor = claBlue
+      TextSettings.HorzAlign = Leading
+      FieldName = 'Rod'
+    end
+    object Workimg: TISWorkField
+      Color = claMediumblue
+      CornerWidth = 4.000000000000000000
+      EdgeColor = claBlack
+      Shadow.Enabled = False
+      Shadow.Color = claLightgray
+      Shadow.Radius = 12.000000000000000000
+      Shadow.Distance = 3.000000000000000000
+      Shadow.Opacity = 0.600000023841857900
+      CursorEnter = crDefault
+      Fill.Color = claMediumblue
+      Stroke.Kind = None
+      Stroke.Thickness = 0.000000000000000000
+      CanFocus = True
+      Size.Width = 16.000000000000000000
+      Size.Height = 16.000000000000000000
+      Size.PlatformDefault = False
+      Position.X = 18.000000000000000000
+      Position.Y = 54.000000000000000000
+      HitTest = False
+      LongTapTime = 1.000000000000000000
+      ClickTime = 0.400000005960464500
+      FieldName = 'img'
+    end
+    object ISWorkField1: TISWorkField
+      Color = claRed
+      CornerWidth = 4.000000000000000000
+      EdgeColor = claBlack
+      Shadow.Enabled = False
+      Shadow.Color = claLightgray
+      Shadow.Radius = 12.000000000000000000
+      Shadow.Distance = 3.000000000000000000
+      Shadow.Opacity = 0.600000023841857900
+      CursorEnter = crDefault
+      Fill.Color = claRed
+      Stroke.Kind = None
+      Stroke.Thickness = 0.000000000000000000
+      CanFocus = True
+      Size.Width = 16.000000000000000000
+      Size.Height = 16.000000000000000000
+      Size.PlatformDefault = False
+      Position.X = 44.000000000000000000
+      Position.Y = 58.000000000000000000
+      HitTest = False
+      LongTapTime = 1.000000000000000000
+      ClickTime = 0.400000005960464500
+      FieldName = 'Frete'
+    end
+  end
+  object CardOfertas: TISDataCard
+    Color = claNull
+    EdgeColor = claBlack
+    Shadow.Enabled = False
+    Shadow.Color = claLightgray
+    Shadow.Radius = 12.000000000000000000
+    Shadow.Distance = 3.000000000000000000
+    Shadow.Opacity = 0.600000023841857900
+    CursorEnter = crDefault
+    Fill.Color = claNull
+    Stroke.Kind = None
+    Stroke.Thickness = 0.000000000000000000
+    CanFocus = True
+    Size.Width = 300.000000000000000000
+    Size.Height = 102.000000000000000000
+    Size.PlatformDefault = False
+    Position.X = 227.000000000000000000
+    Position.Y = 298.000000000000000000
+    Margins.Left = 4.000000000000000000
+    Margins.Right = 4.000000000000000000
+    AutoHeight = False
+    AutoHide = True
+    HeaderIndex = -1
+    Selected = False
+    SelectedColor = claWhite
+    Spacing = 8.000000000000000000
+    Columns = 1
+    CardType = ctDetail
+    SlideLeft = False
+    SlideRight = False
+    object ImagemOfertas: TISImageFieldEx
+      Tag = 111
+      Color = claWhite
+      CornerWidth = 16.000000000000000000
+      EdgeColor = claBlack
+      Shadow.Enabled = False
+      Shadow.Color = claLightgray
+      Shadow.Radius = 12.000000000000000000
+      Shadow.Distance = 3.000000000000000000
+      Shadow.Opacity = 0.600000023841857900
+      CursorEnter = crDefault
+      Fill.Bitmap.Bitmap.PNG = {
+        89504E470D0A1A0A0000000D494844520000011C0000005608060000001D4029
+        5E000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+        007549444154785EEDC101010000008220FFAF6E484000000000000000000000
+        0000000000000000000000000000000000000000000000000000000000000000
+        0000000000000000000000000000000000000000000000000000000000000000
+        000000000000000000000000000000000000000070AE067E050001CF86707600
+        00000049454E44AE426082}
+      Fill.Bitmap.WrapMode = TileStretch
+      Fill.Kind = Bitmap
+      Stroke.Kind = None
+      Stroke.Thickness = 0.000000000000000000
+      CanFocus = True
+      Size.Width = 284.000000000000000000
+      Size.Height = 86.000000000000000000
+      Size.PlatformDefault = False
+      Align = Client
+      HitTest = False
+      Margins.Left = 8.000000000000000000
+      Margins.Top = 8.000000000000000000
+      Margins.Right = 8.000000000000000000
+      Margins.Bottom = 8.000000000000000000
+      LongTapTime = 1.000000000000000000
+      ClickTime = 0.400000005960464500
+      DataType = itURLBitmap
+      AutoHeight = False
+      AutoLoadInList = True
+      FieldName = 'ImgOfertas'
+      ShowDefaultImage = False
+      ShowErrorImage = False
+      HttpCache = True
+      HttpTimeOut = 10000
+      Fade = True
+      FadeTime = 0.300000011920929000
+      FullSize = True
+    end
+  end
+  object ISWaitLayout1: TISWaitLayout
+    ClipChildren = True
+    HitTest = True
+    Position.X = 114.000000000000000000
+    Position.Y = 282.000000000000000000
+    Size.Width = 86.000000000000000000
+    Size.Height = 109.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    SidesLayouts.Sensibility = 10.000000000000000000
+    SidesLayouts.AniColor = claGray
+    SidesLayouts.AniSize = 50.000000000000000000
+    StatusBarColor = claNull
+    NaviBarColor = claNull
+    BackgroundColor = xFFF0F0F0
+    BackgroundOpacity = 1.000000000000000000
+    AniAlign = Center
+    AniSize.Width = 64.000000000000000000
+    AniSize.Height = 64.000000000000000000
+    AniSize.PlatformDefault = False
+    AniPosition.X = 11.000000000000000000
+    AniPosition.Y = 22.000000000000000000
+    AniAnchors = []
+    AutoStart = True
+    WaitType = Spinner2
+    WaitVisible = True
+    ShowPrevButton = False
+    StopOnDeactivate = True
+    ShowMenuButton = True
+    ShowTitleButtons = True
+    ShowBackButton = False
+    ShowTitleBar = True
+  end
+  object ISDownload1: TISDownload
+    Cache = True
+    CacheTypes.Strings = (
+      '.png'
+      '.jpg'
+      '.base64')
+    UserAgent = 
+      'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KH' +
+      'TML, like Gecko) Chrome/79.0.3945.130 Safari/537.36'
+    TimeOut = 10000
+    Left = 32
+    Top = 348
+  end
+end
