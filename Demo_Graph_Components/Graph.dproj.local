@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/01/19 17:49:58.000.151,=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/02/05 10:12:17.000.959,=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/02/11 14:17:49.000.456,=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/02/13 10:14:44.000.463,=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2021/02/13 11:18:06.000.183,=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2021/02/13 11:24:58.000.409,=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2021/02/13 11:38:01.000.838,=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2021/02/13 11:50:09.000.155,=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2021/02/13 11:52:33.000.263,=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2021/02/13 12:08:00.000.267,=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2021/02/13 12:13:54.000.808,=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2021/02/13 12:17:33.000.431,=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2021/02/13 12:19:32.000.479,=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2021/02/13 12:20:01.000.914,=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2021/02/13 12:21:49.000.904,=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2021/02/13 12:26:05.000.728,=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2021/02/13 12:26:25.000.464,=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2021/02/13 12:53:39.000.742,=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2021/02/13 13:10:42.000.982,=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2021/02/13 13:40:47.000.090,=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2021/02/13 13:42:16.000.847,=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2021/02/13 13:56:59.000.264,=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2021/02/13 13:58:18.000.390,=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2021/02/13 13:59:28.000.071,=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2021/02/13 15:14:16.000.340,=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2021/02/19 14:59:16.000.455,=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2021/02/27 18:46:07.000.969,=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2021/03/14 11:09:48.000.684,=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Unit4.pas</Transaction>
+    <Transaction>2021/03/25 15:43:06.000.994,=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Unit5.pas</Transaction>
+    <Transaction>2021/03/29 15:02:48.000.595,=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Unit5.pas</Transaction>
+    <Transaction>2021/04/07 15:20:14.000.643,=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Unit5.pas</Transaction>
+    <Transaction>2021/04/07 15:20:27.000.691,=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Unit5.pas</Transaction>
+    <Transaction>2021/04/15 09:57:06.000.269,=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Unit6.pas</Transaction>
+    <Transaction>2021/04/15 10:12:41.000.482,=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Unit6.pas</Transaction>
+    <Transaction>2021/04/20 17:10:15.000.093,=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Unit6.pas</Transaction>
+    <Transaction>2021/04/21 10:58:22.000.591,=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\WebModuleUnit1.pas</Transaction>
+    <Transaction>2021/04/28 19:55:20.000.882,=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\WebModuleUnit1.pas</Transaction>
+    <Transaction>2021/05/03 10:46:39.000.865,=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\WebModuleUnit1.pas</Transaction>
+    <Transaction>2021/05/03 10:50:23.000.160,=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\FormUnit1.pas</Transaction>
+    <Transaction>2021/05/03 10:50:24.000.317,=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\WebModuleUnit1.pas</Transaction>
+    <Transaction>2021/05/07 15:43:54.000.022,=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Unit7.pas</Transaction>
+    <Transaction>2021/05/21 09:21:03.000.802,=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Unit7.pas</Transaction>
+    <Transaction>2021/05/26 15:08:00.000.576,=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Unit7.pas</Transaction>
+    <Transaction>2021/05/29 16:05:02.000.085,=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Unit7.pas</Transaction>
+    <Transaction>2021/05/29 20:13:37.000.814,=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Unit7.pas</Transaction>
+    <Transaction>2021/06/02 18:08:22.000.353,=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Unit7.pas</Transaction>
+    <Transaction>2021/06/04 09:18:23.000.591,=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Unit7.pas</Transaction>
+    <Transaction>2021/06/19 15:46:18.000.180,=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Unit7.pas</Transaction>
+    <Transaction>2021/06/30 10:02:05.000.735,=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Unit10.pas</Transaction>
+    <Transaction>2021/06/30 10:15:55.000.567,=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Unit10.pas</Transaction>
+    <Transaction>2021/06/30 10:16:06.000.705,=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Unit10.pas</Transaction>
+    <Transaction>2021/07/02 10:20:40.000.806,=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Unit10.pas</Transaction>
+    <Transaction>2021/07/02 10:25:28.000.059,=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Unit10.pas</Transaction>
+    <Transaction>2021/07/02 10:29:44.000.945,=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Unit10.pas</Transaction>
+    <Transaction>2021/07/02 10:45:08.000.898,=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Unit10.pas</Transaction>
+    <Transaction>2021/07/02 10:48:06.000.104,=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Unit10.pas</Transaction>
+    <Transaction>2021/07/02 10:50:49.000.466,=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Unit10.pas</Transaction>
+    <Transaction>2021/07/02 10:53:51.000.746,=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Unit10.pas</Transaction>
+    <Transaction>2021/07/06 08:48:58.000.356,=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Unit10.pas</Transaction>
+    <Transaction>2021/07/20 11:25:36.000.783,=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Unit13.pas</Transaction>
+    <Transaction>2021/07/20 11:29:33.000.347,=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Unit13.pas</Transaction>
+    <Transaction>2021/07/20 11:29:58.000.418,=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Unit13.pas</Transaction>
+    <Transaction>2021/07/20 12:22:08.000.810,=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Unit13.pas</Transaction>
+    <Transaction>2021/07/20 12:30:53.000.473,=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Unit13.pas</Transaction>
+    <Transaction>2021/07/20 12:31:12.000.178,=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Unit13.pas</Transaction>
+    <Transaction>2021/07/20 12:37:24.000.662,=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Unit13.pas</Transaction>
+    <Transaction>2021/07/20 12:50:19.000.922,=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Unit13.pas</Transaction>
+    <Transaction>2021/07/20 12:55:05.000.297,=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Unit13.pas</Transaction>
+    <Transaction>2021/07/24 23:49:30.000.100,=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Unit13.pas</Transaction>
+    <Transaction>2021/07/24 23:57:11.000.661,C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Teste_PieGraph\Unit13.fmx=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Unit13.fmx</Transaction>
+    <Transaction>2021/07/24 23:57:11.000.661,C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Teste_PieGraph\Unit13.pas=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Unit13.pas</Transaction>
+    <Transaction>2021/07/25 15:53:16.000.554,C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Teste_PieGraph\Project1.dproj=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2021/07/26 20:31:34.000.826,=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Teste_PieGraph\Unit1.pas</Transaction>
+    <Transaction>2021/07/26 20:33:24.000.055,C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Teste_PieGraph\Unit1.pas=C:\Delphi\FMX.ISComponents\src\FMX.ISPieGraph.pas</Transaction>
+    <Transaction>2021/07/26 20:50:40.000.339,C:\Delphi\FMX.ISComponents\src\FMX.ISPieGraph.pas=</Transaction>
+    <Transaction>2021/07/28 10:34:52.114,C:\Delphi\demos\Demo_Graph_Components\Graph.dproj=C:\Delphi\demos\Demo_Graph_Components\Project1.dproj</Transaction>
+    <Transaction>2021/07/28 10:35:15.260,C:\Delphi\demos\Demo_Graph_Components\uGraph.fmx=C:\Delphi\demos\Demo_Graph_Components\Unit13.fmx</Transaction>
+    <Transaction>2021/07/28 10:35:15.260,C:\Delphi\demos\Demo_Graph_Components\uGraph.pas=C:\Delphi\demos\Demo_Graph_Components\Unit13.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile Android="7fc8f2f8" Android64="7fc8f2f8" iOSSimulator="iPhone5"/>
+		<PHackIntosh iOSSimulator="iPhone"/>
+		<PVMMac iOSSimulator="iPhone5" iOSDevice64=""/>
+	</ActiveMobileDevice>
+</BorlandProject>
