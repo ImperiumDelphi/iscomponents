@@ -76,12 +76,12 @@
     <Transaction>2021/07/26 20:31:34.000.826,=C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Teste_PieGraph\Unit1.pas</Transaction>
     <Transaction>2021/07/26 20:33:24.000.055,C:\Users\Dell\Documents\Embarcadero\Studio\Projects\Teste_PieGraph\Unit1.pas=C:\Delphi\FMX.ISComponents\src\FMX.ISPieGraph.pas</Transaction>
     <Transaction>2021/07/26 20:50:40.000.339,C:\Delphi\FMX.ISComponents\src\FMX.ISPieGraph.pas=</Transaction>
-    <Transaction>2021/07/28 10:34:52.114,C:\Delphi\demos\Demo_Graph_Components\Graph.dproj=C:\Delphi\demos\Demo_Graph_Components\Project1.dproj</Transaction>
-    <Transaction>2021/07/28 10:35:15.260,C:\Delphi\demos\Demo_Graph_Components\uGraph.fmx=C:\Delphi\demos\Demo_Graph_Components\Unit13.fmx</Transaction>
-    <Transaction>2021/07/28 10:35:15.260,C:\Delphi\demos\Demo_Graph_Components\uGraph.pas=C:\Delphi\demos\Demo_Graph_Components\Unit13.pas</Transaction>
+    <Transaction>2021/07/28 10:34:52.000.114,C:\Delphi\demos\Demo_Graph_Components\Graph.dproj=C:\Delphi\demos\Demo_Graph_Components\Project1.dproj</Transaction>
+    <Transaction>2021/07/28 10:35:15.000.260,C:\Delphi\demos\Demo_Graph_Components\uGraph.fmx=C:\Delphi\demos\Demo_Graph_Components\Unit13.fmx</Transaction>
+    <Transaction>2021/07/28 10:35:15.000.260,C:\Delphi\demos\Demo_Graph_Components\uGraph.pas=C:\Delphi\demos\Demo_Graph_Components\Unit13.pas</Transaction>
   </Transactions>
 	<ActiveMobileDevice>
-		<NoProfile Android="7fc8f2f8" Android64="7fc8f2f8" iOSSimulator="iPhone5"/>
+		<NoProfile Android="" Android64="" iOSSimulator="iPhone5"/>
 		<PHackIntosh iOSSimulator="iPhone"/>
 		<PVMMac iOSSimulator="iPhone5" iOSDevice64=""/>
 	</ActiveMobileDevice>

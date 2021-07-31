@@ -1,10 +1,9 @@
 object FormGraph: TFormGraph
   Left = 0
   Top = 0
-  ActiveControl = PieSubTitles
   Caption = 'Form13'
-  ClientHeight = 942
-  ClientWidth = 389
+  ClientHeight = 794
+  ClientWidth = 474
   Fill.Kind = Solid
   FormFactor.Width = 320
   FormFactor.Height = 480
@@ -13,31 +12,32 @@ object FormGraph: TFormGraph
   DesignerMasterStyle = 0
   object Scroll: TISVertScrollBox
     Align = Client
-    Size.Width = 389.000000000000000000
-    Size.Height = 942.000000000000000000
+    Size.Width = 474.000000000000000000
+    Size.Height = 794.000000000000000000
     Size.PlatformDefault = False
     TabOrder = 1
     BackgroundColor = claNull
-    Viewport.Width = 389.000000000000000000
-    Viewport.Height = 942.000000000000000000
+    Viewport.Width = 474.000000000000000000
+    Viewport.Height = 794.000000000000000000
     object LayoutPie: TLayout
       Align = Top
-      Size.Width = 389.000000000000000000
+      HitTest = True
+      Size.Width = 474.000000000000000000
       Size.Height = 380.000000000000000000
       Size.PlatformDefault = False
-      TabOrder = 2
+      TabOrder = 0
       object PieGraph: TISPieGraph
         Align = Client
         Fill.Color = claBlack
         Margins.Left = 8.000000000000000000
         Margins.Top = 8.000000000000000000
         Margins.Right = 8.000000000000000000
-        Size.Width = 217.000000000000000000
+        Size.Width = 280.000000000000000000
         Size.Height = 332.000000000000000000
         Size.PlatformDefault = False
         WrapMode = Fit
-        SubTitle = PieSubTitles
-        Thickness = 50.000000000000000000
+        Titles = PieTitles
+        Thickness = 30.000000000000000000
         Separator = claWhite
         SeparatorThickness = 2.000000000000000000
         AniDuration = 1.000000000000000000
@@ -48,43 +48,17 @@ object FormGraph: TFormGraph
         CutOnClick = True
         OnClickItem = PieGraphClickItem
       end
-      object PieSubTitles: TISPieSubTitles
-        Shadow.Enabled = False
-        Shadow.Color = claLightgray
-        Shadow.Radius = 12.000000000000000000
-        Shadow.Distance = 3.000000000000000000
-        Shadow.Opacity = 0.600000023841857900
-        CursorEnter = crDefault
-        Color = claWhite
-        EdgeColor = claBlack
-        Fill.Color = claWhite
-        Stroke.Thickness = 0.000000000000000000
-        CanFocus = True
-        Size.Width = 140.000000000000000000
-        Size.Height = 332.000000000000000000
-        Size.PlatformDefault = False
-        Position.X = 241.000000000000000000
-        Position.Y = 8.000000000000000000
-        Align = Right
-        Margins.Left = 8.000000000000000000
-        Margins.Top = 8.000000000000000000
-        Margins.Right = 8.000000000000000000
-        LongTapTime = 1.000000000000000000
-        ClickTime = 0.400000005960464500
-        SubtitleAlign = saVertical
-        SubtitleType = stSquare
-        TextColor = claGray
-      end
       object ISGridLayout1: TISGridLayout
         Align = Bottom
+        HitTest = False
         ItemHeight = 40.000000000000000000
-        ItemWidth = 162.000000000000000000
+        ItemWidth = 205.000000000000000000
         Orientation = Horizontal
         Margins.Left = 32.000000000000000000
         Margins.Right = 32.000000000000000000
         Position.X = 32.000000000000000000
         Position.Y = 340.000000000000000000
-        Size.Width = 325.000000000000000000
+        Size.Width = 410.000000000000000000
         Size.Height = 40.000000000000000000
         Size.PlatformDefault = False
         TabOrder = 0
@@ -106,7 +80,7 @@ object FormGraph: TFormGraph
           Fill.Color = claWhite
           Stroke.Thickness = 0.000000000000000000
           CanFocus = True
-          Size.Width = 154.000000000000000000
+          Size.Width = 197.000000000000000000
           Size.Height = 32.000000000000000000
           Size.PlatformDefault = False
           Position.X = 4.000000000000000000
@@ -160,10 +134,10 @@ object FormGraph: TFormGraph
           Fill.Color = claWhite
           Stroke.Thickness = 0.000000000000000000
           CanFocus = True
-          Size.Width = 154.000000000000000000
+          Size.Width = 197.000000000000000000
           Size.Height = 32.000000000000000000
           Size.PlatformDefault = False
-          Position.X = 166.000000000000000000
+          Position.X = 209.000000000000000000
           Position.Y = 4.000000000000000000
           Margins.Left = 4.000000000000000000
           Margins.Top = 4.000000000000000000
@@ -203,52 +177,64 @@ object FormGraph: TFormGraph
           ReadOnly = False
         end
       end
+      object PieTitles: TISGraphTitles
+        Shadow.Enabled = False
+        Shadow.Color = claLightgray
+        Shadow.Radius = 12.000000000000000000
+        Shadow.Distance = 3.000000000000000000
+        Shadow.Opacity = 0.600000023841857900
+        CursorEnter = crDefault
+        Color = claWhite
+        EdgeColor = claBlack
+        Fill.Color = claWhite
+        Stroke.Thickness = 0.000000000000000000
+        CanFocus = True
+        Size.Width = 170.000000000000000000
+        Size.Height = 332.000000000000000000
+        Size.PlatformDefault = False
+        Position.X = 296.000000000000000000
+        Position.Y = 8.000000000000000000
+        Align = Right
+        Margins.Top = 8.000000000000000000
+        Margins.Right = 8.000000000000000000
+        LongTapTime = 1.000000000000000000
+        ClickTime = 0.400000005960464500
+        SubtitleAlign = saVertical
+        SubtitleType = stCircle
+        Lines = 1
+        TextColor = claGray
+        TextSelectedColor = claBlack
+        MaxItemHeight = 25.000000000000000000
+      end
     end
     object Layout1: TLayout
       Align = Top
+      HitTest = True
       Margins.Top = 16.000000000000000000
       Position.Y = 396.000000000000000000
-      Size.Width = 389.000000000000000000
-      Size.Height = 221.000000000000000000
+      Size.Width = 474.000000000000000000
+      Size.Height = 303.000000000000000000
       Size.PlatformDefault = False
-      TabOrder = 3
+      TabOrder = 1
       object VectorGraph: TIsVectorGraph
         Align = Client
-        Data.Data = 
-          'M-10,153.321426391602 L0,153.321426391602 C18.6499996185303,153.' +
-          '321426391602 12.4333343505859,141.642852783203 31.0833339691162,' +
-          '141.642852783203 C49.7333335876465,141.642852783203 43.516670227' +
-          '0508,106.607139587402 62.1666679382324,106.607139587402 C80.8166' +
-          '656494141,106.607139587402 74.5999984741211,65.7321395874023 93.' +
-          '25,65.7321395874023 C111.900001525879,65.7321395874023 105.68333' +
-          '4350586,1.5 124.333335876465,1.5 C142.983337402344,1.5 136.76667' +
-          '7856445,100.767852783203 155.41667175293,100.767852783203 C174.0' +
-          '66665649414,100.767852783203 167.850006103516,132.883926391602 1' +
-          '86.5,132.883926391602 C205.149993896484,132.883926391602 198.933' +
-          '349609375,141.642852783203 217.583343505859,141.642852783203 C23' +
-          '6.233337402344,141.642852783203 230.016677856445,112.44642639160' +
-          '2 248.66667175293,112.446426391602 C267.316680908203,112.4464263' +
-          '91602 261.100006103516,103.6875 279.75,103.6875 C298.39999389648' +
-          '4,103.6875 292.183349609375,33.6160736083984 310.833343505859,33' +
-          '.6160736083984 C329.483337402344,33.6160736083984 323.2666931152' +
-          '34,68.6517868041992 341.916687011719,68.6517868041992 C360.56668' +
-          '0908203,68.6517868041992 354.350006103516,100.767852783203 373,1' +
-          '00.767852783203 L383,100.767852783203 L383,265 L-10,265 Z '
-        Fill.Color = x70F18C8C
+        ClipChildren = True
+        Fill.Color = xA0F18C8C
         Margins.Left = 8.000000000000000000
         Margins.Top = 8.000000000000000000
         Margins.Right = 8.000000000000000000
         Margins.Bottom = 8.000000000000000000
-        Size.Width = 373.000000000000000000
-        Size.Height = 165.000000000000000000
+        Size.Width = 458.000000000000000000
+        Size.Height = 187.000000000000000000
         Size.PlatformDefault = False
         Stroke.Color = xFFFB0404
         Stroke.Thickness = 3.000000000000000000
         WrapMode = Original
+        Titles = VectorTitles
         AniTime = 0.600000023841857900
-        GraphType = vgWave
+        GraphType = vgBarsRound
         Values.Strings = (
-          '4'
+          '30'
           '8'
           '20'
           '34'
@@ -261,17 +247,21 @@ object FormGraph: TFormGraph
           '45'
           '33'
           '22')
+        Index = -1
+        BarsBackground = xFFE0E0E0
+        SelectedBackground = claLightgray
       end
       object ISGridLayout2: TISGridLayout
         Align = Bottom
+        HitTest = False
         ItemHeight = 40.000000000000000000
-        ItemWidth = 108.000000000000000000
+        ItemWidth = 136.000000000000000000
         Orientation = Horizontal
         Margins.Left = 32.000000000000000000
         Margins.Right = 32.000000000000000000
         Position.X = 32.000000000000000000
-        Position.Y = 181.000000000000000000
-        Size.Width = 325.000000000000000000
+        Position.Y = 263.000000000000000000
+        Size.Width = 410.000000000000000000
         Size.Height = 40.000000000000000000
         Size.PlatformDefault = False
         TabOrder = 0
@@ -293,7 +283,7 @@ object FormGraph: TFormGraph
           Fill.Color = claWhite
           Stroke.Thickness = 0.000000000000000000
           CanFocus = True
-          Size.Width = 100.000000000000000000
+          Size.Width = 128.000000000000000000
           Size.Height = 32.000000000000000000
           Size.PlatformDefault = False
           Position.X = 4.000000000000000000
@@ -329,10 +319,10 @@ object FormGraph: TFormGraph
           Fill.Color = claWhite
           Stroke.Thickness = 0.000000000000000000
           CanFocus = True
-          Size.Width = 100.000000000000000000
+          Size.Width = 128.000000000000000000
           Size.Height = 32.000000000000000000
           Size.PlatformDefault = False
-          Position.X = 112.000000000000000000
+          Position.X = 140.000000000000000000
           Position.Y = 4.000000000000000000
           Margins.Left = 4.000000000000000000
           Margins.Top = 4.000000000000000000
@@ -365,10 +355,10 @@ object FormGraph: TFormGraph
           Fill.Color = claWhite
           Stroke.Thickness = 0.000000000000000000
           CanFocus = True
-          Size.Width = 100.000000000000000000
+          Size.Width = 128.000000000000000000
           Size.Height = 32.000000000000000000
           Size.PlatformDefault = False
-          Position.X = 220.000000000000000000
+          Position.X = 276.000000000000000000
           Position.Y = 4.000000000000000000
           Margins.Left = 4.000000000000000000
           Margins.Top = 4.000000000000000000
@@ -389,6 +379,36 @@ object FormGraph: TFormGraph
           TextHorAlign = Center
           TextVerAlign = Center
         end
+      end
+      object VectorTitles: TISGraphTitles
+        Shadow.Enabled = False
+        Shadow.Color = claLightgray
+        Shadow.Radius = 12.000000000000000000
+        Shadow.Distance = 3.000000000000000000
+        Shadow.Opacity = 0.600000023841857900
+        CursorEnter = crDefault
+        Color = claWhite
+        EdgeColor = claBlack
+        Fill.Color = claWhite
+        Stroke.Thickness = 0.000000000000000000
+        CanFocus = True
+        Size.Width = 458.000000000000000000
+        Size.Height = 52.000000000000000000
+        Size.PlatformDefault = False
+        Position.X = 8.000000000000000000
+        Position.Y = 203.000000000000000000
+        Align = Bottom
+        Margins.Left = 8.000000000000000000
+        Margins.Right = 8.000000000000000000
+        Margins.Bottom = 8.000000000000000000
+        LongTapTime = 1.000000000000000000
+        ClickTime = 0.400000005960464500
+        SubtitleAlign = saHorizontal
+        SubtitleType = stCircle
+        Lines = 2
+        TextColor = claGray
+        TextSelectedColor = claBlack
+        MaxItemHeight = 25.000000000000000000
       end
     end
   end
@@ -506,7 +526,7 @@ object FormGraph: TFormGraph
     ButtonOnTop = False
     PopUpOpacity = 1.000000000000000000
     OnOptionSelected = PopUpTypeOptionSelected
-    Left = 58
-    Top = 766
+    Left = 26
+    Top = 724
   end
 end
